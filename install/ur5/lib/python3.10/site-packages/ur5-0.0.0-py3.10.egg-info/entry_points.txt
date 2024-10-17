@@ -1,0 +1,5 @@
+[console_scripts]
+gz = ur5.controller_fk:main
+gz_ik = ur5.controller_ik:main
+rviz = ur5.controller_rviz:main
+rviz_ik = ur5.controller_rviz_ik:main

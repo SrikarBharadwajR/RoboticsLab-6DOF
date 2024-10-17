@@ -1,0 +1,60 @@
+[1.409s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5': PYTHONPATH=/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build install --record /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/install.log --single-version-externally-managed install_data
+[1.660s] /home/srikar/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.660s]   warnings.warn(msg)
+[1.840s] running egg_info
+[1.863s] creating ../../build/ur5/ur5.egg-info
+[1.863s] writing ../../build/ur5/ur5.egg-info/PKG-INFO
+[1.864s] writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+[1.864s] writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+[1.866s] writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+[1.866s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[1.913s] reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[1.915s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[1.915s] running build
+[1.915s] running build_py
+[1.915s] creating /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[1.916s] copying ur5/controller_fk.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[1.916s] copying ur5/controller_rviz_ik.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[1.916s] copying ur5/controller_rviz.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[1.916s] copying ur5/controller_ik.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[1.916s] copying ur5/__init__.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[1.917s] running install
+[1.923s] running install_lib
+[1.948s] creating /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5
+[1.949s] copying /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5/controller_fk.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5
+[1.949s] copying /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5/controller_rviz_ik.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5
+[1.949s] copying /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5/controller_rviz.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5
+[1.949s] copying /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5/controller_ik.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5
+[1.949s] copying /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5/__init__.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5
+[1.950s] byte-compiling /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5/controller_fk.py to controller_fk.cpython-310.pyc
+[1.950s] byte-compiling /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5/controller_rviz_ik.py to controller_rviz_ik.cpython-310.pyc
+[1.951s] byte-compiling /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5/controller_rviz.py to controller_rviz.cpython-310.pyc
+[1.952s] byte-compiling /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5/controller_ik.py to controller_ik.cpython-310.pyc
+[1.953s] byte-compiling /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5/__init__.py to __init__.cpython-310.pyc
+[1.953s] running install_data
+[1.953s] creating /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/packages
+[1.954s] copying resource/ur5 -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/packages
+[1.954s] copying package.xml -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.954s] copying launch/ur5_rviz.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.954s] copying launch/ur5_control.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.954s] copying launch/ur5_world.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.955s] copying launch/ur5_gazebo.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.955s] copying urdf/ur5_bot.urdf -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.955s] copying urdf/ur5_rviz_bot.urdf -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.955s] copying config/ur5_control.yaml -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.955s] copying meshes/wrist_2_link.STL -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.960s] copying meshes/base_link.STL -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.961s] copying meshes/shoulder_link.STL -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.968s] copying meshes/upper_arm_link.STL -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.982s] copying meshes/wrist_3_link.STL -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.982s] copying meshes/forearm_link.STL -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.987s] copying meshes/wrist_1_link.STL -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[1.994s] running install_egg_info
+[2.019s] Copying ../../build/ur5/ur5.egg-info to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info
+[2.020s] running install_scripts
+[2.215s] Installing gz script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[2.215s] Installing gz_ik script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[2.215s] Installing rviz script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[2.215s] Installing rviz_ik script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[2.216s] writing list of installed files to '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/install.log'
+[2.253s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5' returned '0': PYTHONPATH=/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build install --record /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/install.log --single-version-externally-managed install_data

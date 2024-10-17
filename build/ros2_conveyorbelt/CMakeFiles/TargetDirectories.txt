@@ -1,0 +1,10 @@
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/uninstall.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/ros2_conveyorbelt_uninstall.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/ros2_conveyorbelt_plugin.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/test.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/edit_cache.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/rebuild_cache.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/list_install_components.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/install.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/install/local.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt/CMakeFiles/install/strip.dir
