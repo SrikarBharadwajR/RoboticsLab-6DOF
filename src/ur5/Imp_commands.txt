@@ -1,0 +1,23 @@
+ik to place -  ros2 run ur5 gz_ik /desired_pose geometry_msgs/Pose "{position: {x: 0.11325, y: 0.48885, z: 0.50805}, orientation: {x: -0.50022, y: -0.53391, z: 0.46324, w: 0.50013}
+
+ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,0.0,-1.5,0.0,-1.5,0.0]
+
+
+to bring box - 
+ros2 run ros2_conveyorbelt SpawnObject.py --package "conveyorbelt_gazebo" --urdf "box.urdf" --name "box" --x -0.5 --y 0.0 --z 0.76
+
+
+
+ros2 param set /trajectory_node joint_angles "[0.0,0.0,1.5,0.0,1.5,0.0]"
+
+ros2 param set /trajectory_node joint_angles "[-0.2,0.2,-0.95,0.35,-1.57,0.0]"
+
+ros2 service call /switch std_srvs/srv/SetBool "{data: true}"
+
+
+
+
+
+
+
+

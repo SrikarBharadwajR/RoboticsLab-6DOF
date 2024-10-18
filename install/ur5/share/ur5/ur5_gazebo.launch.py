@@ -3,13 +3,18 @@ from launch import LaunchDescription
 from launch.actions import ExecuteProcess
 from launch_ros.actions import Node
 
+
 def generate_launch_description():
     urdf_file = "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/urdf/ur5_bot.urdf"
-
     return LaunchDescription(
         [
             ExecuteProcess(
-                cmd=["gazebo", "-s", "libgazebo_ros_factory.so"],
+                cmd=[
+                    "gazebo",
+                    "--verbose",
+                    "-s",
+                    "libgazebo_ros_factory.so",
+                ],
                 output="screen",
             ),
             Node(

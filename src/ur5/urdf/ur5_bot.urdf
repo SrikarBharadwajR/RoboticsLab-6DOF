@@ -79,7 +79,7 @@
     <parent link="shoulder_link"/>
     <child link="upper_arm_link"/>
     <axis xyz="0 -1 0"/>
-    <limit lower="-1.57" upper="1.57" effort="200" velocity="3"/>
+    <limit lower="-6.2832" upper="6.2832" effort="200" velocity="3"/>
     <dynamics damping="10" friction="1"/>
   </joint>
   <link name="forearm_link">
@@ -199,23 +199,15 @@
     <parent link="wrist_2_link"/>
     <child link="wrist_3_link"/>
     <axis xyz="0 -1 0"/>
-    <limit lower="-6.2832" upper="6.2832" effort="100" velocity="3"/>
+    <limit lower="-6.2832" upper="6.2832" effort="200" velocity="3"/>
     <dynamics damping="10" friction="1"/>
-  </joint>
-  <joint name="gripper_joint1" type="fixed">
-    <axis xyz="1 0 0"/>
-    <parent link="wrist_3_link"/>
-    <child link="vacuum_gripper1"/>
-    <origin rpy="1.570 0 0" xyz="0.01 0.04 0"/>
-    <limit effort="50" velocity="50" lower="0" upper="0"/>
-    <dynamics damping="0.0" friction="10"/>
   </joint>
   <link name="vacuum_gripper1">
     <gravity>0</gravity>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <cylinder radius="0.005" length="0.01"/>
+        <cylinder radius="0.005" length="0.03"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -227,20 +219,26 @@
       <inertia ixx="1e-08" ixy="0" ixz="0" iyy="1e-08" iyz="0" izz="1e-08"/>
     </inertial>
   </link>
+  <joint name="gripper_joint1" type="revolute">
+    <axis xyz="1 0 0"/>
+    <parent link="wrist_3_link"/>
+    <child link="vacuum_gripper1"/>
+    <origin rpy="1.570 0 0" xyz="0.01 0.04 0"/>
+    <limit effort="50" velocity="50" lower="0" upper="0"/>
+    <dynamics damping="0.0" friction="10"/>
+  </joint>
   <gazebo>
     <plugin name="gazebo_ros_vacuum_gripper1" filename="libgazebo_ros_vacuum_gripper.so">
-      <!-- <ros>
-        <namespace>/ur5/vacuum_gripper1</namespace>
-      </ros> -->
+      <robotNamespace>/ur5/vacuum_gripper1</robotNamespace>
       <link_name>vacuum_gripper1</link_name>
       <bodyName>vacuum_gripper1</bodyName>
       <topicName>grasping1</topicName>
-      <maxForce>50</maxForce>
-      <maxDistance>0.05</maxDistance>
-      <minDistance>0.01</minDistance>
+      <maxForce>5000</maxForce>
+      <maxDistance>0.5</maxDistance>
+      <minDistance>0.0</minDistance>
     </plugin>
   </gazebo>
-  <joint name="gripper_joint2" type="fixed">
+  <joint name="gripper_joint2" type="revolute">
     <axis xyz="1 0 0"/>
     <parent link="wrist_3_link"/>
     <child link="vacuum_gripper2"/>
@@ -253,7 +251,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <cylinder radius="0.005" length="0.01"/>
+        <cylinder radius="0.005" length="0.03"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -266,19 +264,19 @@
     </inertial>
   </link>
   <gazebo>
-    <plugin name="gazebo_ros_vacuum_gripper2" filename="libgazebo_ros_vacuum_gripper.so">
-      <!-- <ros>
+    <plugin name="gazebo_ros_vacuum_gripper2" filename="libgazebo_ros_vacuum_gripper.so"><!-- <ros>
         <namespace>/ur5/vacuum_gripper2</namespace>
       </ros> -->
       <link_name>vacuum_gripper2</link_name>
       <bodyName>vacuum_gripper2</bodyName>
+      <link_name>vacuum_gripper2</link_name>
       <topicName>grasping2</topicName>
-      <maxForce>50</maxForce>
-      <maxDistance>0.05</maxDistance>
-      <minDistance>0.01</minDistance>
+      <maxForce>5000</maxForce>
+      <maxDistance>0.5</maxDistance>
+      <minDistance>0.0</minDistance>
     </plugin>
   </gazebo>
-  <joint name="gripper_joint3" type="fixed">
+  <joint name="gripper_joint3" type="revolute">
     <axis xyz="1 0 0"/>
     <parent link="wrist_3_link"/>
     <child link="vacuum_gripper3"/>
@@ -291,7 +289,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <cylinder radius="0.005" length="0.01"/>
+        <cylinder radius="0.005" length="0.03"/>
       </geometry>
       <material name="black">
         <color rgba="0 0 0 0.5"/>
@@ -304,19 +302,19 @@
     </inertial>
   </link>
   <gazebo>
-    <plugin name="gazebo_ros_vacuum_gripper3" filename="libgazebo_ros_vacuum_gripper.so">
-      <!-- <ros>
+    <plugin name="gazebo_ros_vacuum_gripper3" filename="libgazebo_ros_vacuum_gripper.so"><!-- <ros>
         <namespace>/ur5/vacuum_gripper3</namespace>
       </ros> -->
       <link_name>vacuum_gripper3</link_name>
       <bodyName>vacuum_gripper3</bodyName>
+      <link_name>vacuum_gripper3</link_name>
       <topicName>grasping3</topicName>
       <maxForce>50</maxForce>
       <maxDistance>0.05</maxDistance>
       <minDistance>0.01</minDistance>
     </plugin>
   </gazebo>
-  <joint name="gripper_joint4" type="fixed">
+  <joint name="gripper_joint4" type="revolute">
     <axis xyz="1 0 0"/>
     <parent link="wrist_3_link"/>
     <child link="vacuum_gripper4"/>
@@ -329,7 +327,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <cylinder radius="0.005" length="0.01"/>
+        <cylinder radius="0.005" length="0.03"/>
       </geometry>
       <material name="black">
         <color rgba="0 0 0 1"/>
@@ -342,18 +340,18 @@
     </inertial>
   </link>
   <gazebo>
-    <plugin name="gazebo_ros_vacuum_gripper4" filename="libgazebo_ros_vacuum_gripper.so">
-      <!-- <ros>
+    <plugin name="gazebo_ros_vacuum_gripper4" filename="libgazebo_ros_vacuum_gripper.so"><!-- <ros>
         <namespace>/ur5/vacuum_gripper4</namespace>
       </ros> -->
       <link_name>vacuum_gripper4</link_name>
       <bodyName>vacuum_gripper4</bodyName>
+      <link_name>vacuum_gripper4</link_name>
       <topicName>grasping4</topicName>
       <maxForce>50</maxForce>
       <maxDistance>0.05</maxDistance>
       <minDistance>0.01</minDistance>
     </plugin>
-  </gazebo><!-- Camera joint -->
+  </gazebo>
   <joint name="camera_joint" type="fixed">
     <axis xyz="0 1 0"/>
     <origin xyz="0.04 0.02 0" rpy="0 0 0"/>
@@ -372,20 +370,58 @@
       <geometry>
         <box size="0.02 0.02 0.02"/>
       </geometry>
-      <material name="green"/>
+      <material name="purple"/>
     </visual>
     <inertial>
       <mass value="1e-5"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
     </inertial>
-  </link><!-- Camera optical frame joint -->
-  <joint name="camera_optical_joint" type="fixed">
-    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/><!-- Replaced -pi/2 with -1.5708 (approximate value) -->
-    <parent link="camera_link"/>
-    <child link="camera_link_optical"/>
-  </joint><!-- Camera optical frame link -->
-  <link name="camera_link_optical"><!-- Empty link, no geometry needed --></link>
+  </link><!-- Gazebo camera plugin -->
+  <gazebo reference="camera_link">
+    <sensor type="camera" name="camera1">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type><!-- Noise is sampled independently per pixel on each frame.
+               That pixel's noise value is added to each of its color
+               channels, which at that point lie in the range [0,1]. -->
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>ur5/usbcam</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>camera_link_optical</frameName><!-- setting hackBaseline to anything but 0.0 will cause a misalignment
+            between the gazebo sensor image and the frame it is supposed to
+            be attached to -->
+        <hackBaseline>0.0</hackBaseline>
+        <distortionK1>0.0</distortionK1>
+        <distortionK2>0.0</distortionK2>
+        <distortionK3>0.0</distortionK3>
+        <distortionT1>0.0</distortionT1>
+        <distortionT2>0.0</distortionT2>
+        <CxPrime>0</CxPrime>
+        <Cx>0.0</Cx>
+        <Cy>0.0</Cy>
+        <focalLength>0.0</focalLength>
+      </plugin>
+    </sensor>
+  </gazebo><!-- World and base links -->
   <link name="world"><!-- No inertial properties required --></link>
   <joint name="world_to_base" type="fixed">
     <parent link="world"/>

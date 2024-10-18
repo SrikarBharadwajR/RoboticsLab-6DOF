@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
-import os 
-from glob import glob 
+import os
+from glob import glob
 
-package_name = 'ur5'
+package_name = "ur5"
 
 setup(
     name=package_name,
@@ -29,6 +29,15 @@ setup(
             "gz_ik = ur5.controller_ik:main",
             "rviz = ur5.controller_rviz:main",
             "rviz_ik = ur5.controller_rviz_ik:main",
+            "cap = ur5.capture_image:main",
+            "pose = ur5.pose_publisher:main",
+            "grip = ur5.vacuum_gripper_controller:main",
         ],
     },
 )
+
+"""
+pick - ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,0.0,1.5,0.0,1.5,0.0]
+up - ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,0.0,0.0,0.0,0.0,0.0]
+place - ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,0.0,-1.5,0.0,-1.5,0.0]
+"""

@@ -1,5 +1,8 @@
 [console_scripts]
+cap = ur5.capture_image:main
+grip = ur5.vacuum_gripper_controller:main
 gz = ur5.controller_fk:main
 gz_ik = ur5.controller_ik:main
+pose = ur5.pose_publisher:main
 rviz = ur5.controller_rviz:main
 rviz_ik = ur5.controller_rviz_ik:main

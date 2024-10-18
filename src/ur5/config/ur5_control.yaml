@@ -8,9 +8,6 @@ controller_manager:
     joint_trajectory_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-    vacuum_gripper_controller:
-      type: effort_controllers/GripperCommandController  # Gripper-specific controller
-
 joint_trajectory_controller:
   ros__parameters:
     joints:
@@ -20,6 +17,7 @@ joint_trajectory_controller:
       - wrist_1_joint
       - wrist_2_joint
       - wrist_3_joint
+
     interface_name: position
     command_interfaces:
       - position
@@ -39,13 +37,15 @@ joint_trajectory_controller:
       wrist_2_joint: {trajectory: 0.05, goal: 0.03}
       wrist_3_joint: {trajectory: 0.05, goal: 0.03}
 
-vacuum_gripper_controller:
-  ros__parameters:
-    interface_name: effort  # Effort-based control for suction
-    command_interface: effort
-    state_interface: effort
-    suction_threshold: 10.0  # Example value for toggling suction
-    suction_command_topic: "/ur5/vacuum_gripper/command"
-    suction_state_topic: "/ur5/vacuum_gripper/state"
-    max_force: 50.0  # Max force of the gripper's suction
-    action_monitor_rate: 20.0
+
+# vacuum_gripper_controller:
+#   ros__parameters:
+#     interface_name: effort  # Effort-based control for suction
+#     command_interface: effort
+#     state_interface: effort
+#     suction_threshold: 1000000000.0  # Example value for toggling suction
+#     suction_command_topic: "/ur5/vacuum_gripper/command"
+#     suction_state_topic: "/ur5/vacuum_gripper/state"
+#     max_force: 10000000.0  # Max force of the gripper's suction
+#     action_monitor_rate: 20.0
+#     grippers_engaged: true

@@ -19,16 +19,18 @@ class TrajectoryPublisher(Node):
             'wrist_3_joint'
         ]
         self.declare_parameter("joint_angles", [0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
-        self.goal_ = self.get_parameter("joint_angles").value
         self.publisher_ = self.create_publisher(JointTrajectory, topic_, 10)
         self.timer_ = self.create_timer(1, self.timer_callback)
    
     def timer_callback(self):
+        # Dynamically get the latest joint angles
+        self.goal_ = self.get_parameter("joint_angles").value
+        
         msg = JointTrajectory()
         msg.joint_names = self.joints
         point = JointTrajectoryPoint()
         point.positions = self.goal_
-        point.time_from_start = Duration(sec=2)  # Duration should be in seconds
+        point.time_from_start = Duration(sec=2)  # Correct Duration initialization
         msg.points.append(point)
         self.publisher_.publish(msg)
         self.get_logger().info('Published trajectory point: %s' % str(point))
