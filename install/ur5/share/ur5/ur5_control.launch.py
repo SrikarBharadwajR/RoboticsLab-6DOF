@@ -14,6 +14,7 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     urdf_file_path = "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/urdf/ur5_bot.urdf"
     controller_file_path = "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/config/ur5_control.yaml"
+
     # Load URDF file
     with open(urdf_file_path, "r") as infp:
         robot_description_content = infp.read()
@@ -70,16 +71,31 @@ def generate_launch_description():
         output="screen",
     )
 
-    # Controller Manager Node (starts the controllers)
+    # Controller Manager Node (without the robot_description parameter)
     controller_manager_node = Node(
         package="controller_manager",
         executable="ros2_control_node",
-        parameters=[robot_description, controller_file_path],
+        parameters=[controller_file_path],
         output="screen",
     )
-    ur5_inverse_kinematics_controller = Node(
-        package="ur5",  # Change to the name of your package
-        executable="gz_ik",  # Name of your executable
+
+    load_forward_kinematics_solver = ExecuteProcess(
+        cmd=[
+            "ros2",
+            "run",
+            "ur5",
+            "gz",
+        ],
+        output="screen",
+    )
+
+    load_camera_capture = ExecuteProcess(
+        cmd=[
+            "ros2",
+            "run",
+            "ur5",
+            "cap",
+        ],
         output="screen",
     )
 
@@ -102,6 +118,7 @@ def generate_launch_description():
                 )
             ),
             controller_manager_node,
-            ur5_inverse_kinematics_controller,
+            load_forward_kinematics_solver,
+            load_camera_capture,
         ]
     )

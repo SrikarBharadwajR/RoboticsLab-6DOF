@@ -26,15 +26,13 @@ class Capture(Node):
 
             # Save the captured image with a unique filename
             image_filename = f"/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/captures/shot.png"
-            cv2.imwrite(image_filename, frame)
-            self.get_logger().info(f"Image saved")
+            # cv2.imwrite(image_filename, frame)
+            
+            # self.get_logger().info(f"Image saved")
 
             # Display the image
             cv2.imshow("Captured Image", frame)
             cv2.waitKey(1)  # Use a short wait time to allow for window refresh
-
-            # Optional: Add a delay between captures
-            time.sleep(0.5)  # Capture every half second; adjust as needed
 
         except Exception as e:
             self.get_logger().error(f"Error processing image: {e}")

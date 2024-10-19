@@ -14,9 +14,6 @@ class MultiVacuumGripperController(Node):
         # Publishers for the four vacuum grippers
         self.gripper_publishers = [
             self.create_publisher(Bool, "/grasping1", 10),
-            # self.create_publisher(Bool, "/grasping2", 10),
-            # self.create_publisher(Bool, "/grasping3", 10),
-            # self.create_publisher(Bool, "/grasping4", 10),
         ]
 
         # Create a service to control all vacuum grippers

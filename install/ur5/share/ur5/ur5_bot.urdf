@@ -123,7 +123,7 @@
       <geometry>
         <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.STL"/>
       </geometry>
-      <material name="Purple">
+      <material name="black">
         <color rgba="1 0 0 1"/>
       </material>
     </visual>
@@ -207,7 +207,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <cylinder radius="0.005" length="0.03"/>
+        <cylinder radius="0.02" length="0.015"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -223,9 +223,9 @@
     <axis xyz="1 0 0"/>
     <parent link="wrist_3_link"/>
     <child link="vacuum_gripper1"/>
-    <origin rpy="1.570 0 0" xyz="0.01 0.04 0"/>
+    <origin rpy="1.570 0 0" xyz="0 0.04 0"/>
     <limit effort="50" velocity="50" lower="0" upper="0"/>
-    <dynamics damping="0.0" friction="10"/>
+    <dynamics damping="0.0" friction="1000"/>
   </joint>
   <gazebo>
     <plugin name="gazebo_ros_vacuum_gripper1" filename="libgazebo_ros_vacuum_gripper.so">
@@ -233,128 +233,14 @@
       <link_name>vacuum_gripper1</link_name>
       <bodyName>vacuum_gripper1</bodyName>
       <topicName>grasping1</topicName>
-      <maxForce>5000</maxForce>
+      <maxForce>10000000</maxForce>
       <maxDistance>0.5</maxDistance>
-      <minDistance>0.0</minDistance>
-    </plugin>
-  </gazebo>
-  <joint name="gripper_joint2" type="revolute">
-    <axis xyz="1 0 0"/>
-    <parent link="wrist_3_link"/>
-    <child link="vacuum_gripper2"/>
-    <origin rpy="1.570 0 0" xyz="-0.01 0.04 0"/>
-    <limit effort="50" velocity="50" lower="0" upper="0"/>
-    <dynamics damping="0.0" friction="10"/>
-  </joint>
-  <link name="vacuum_gripper2">
-    <gravity>0</gravity>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <cylinder radius="0.005" length="0.03"/>
-      </geometry>
-      <material name="red">
-        <color rgba="1 0 0 1"/>
-      </material>
-    </visual>
-    <inertial>
-      <origin rpy="0 0 0" xyz="0.000000 0.000000 0.000000"/>
-      <mass value="0.0001"/>
-      <inertia ixx="1e-08" ixy="0" ixz="0" iyy="1e-08" iyz="0" izz="1e-08"/>
-    </inertial>
-  </link>
-  <gazebo>
-    <plugin name="gazebo_ros_vacuum_gripper2" filename="libgazebo_ros_vacuum_gripper.so"><!-- <ros>
-        <namespace>/ur5/vacuum_gripper2</namespace>
-      </ros> -->
-      <link_name>vacuum_gripper2</link_name>
-      <bodyName>vacuum_gripper2</bodyName>
-      <link_name>vacuum_gripper2</link_name>
-      <topicName>grasping2</topicName>
-      <maxForce>5000</maxForce>
-      <maxDistance>0.5</maxDistance>
-      <minDistance>0.0</minDistance>
-    </plugin>
-  </gazebo>
-  <joint name="gripper_joint3" type="revolute">
-    <axis xyz="1 0 0"/>
-    <parent link="wrist_3_link"/>
-    <child link="vacuum_gripper3"/>
-    <origin rpy="1.570 0 0" xyz="0 0.04 0.01"/>
-    <limit effort="50" velocity="50" lower="0" upper="0"/>
-    <dynamics damping="0.0" friction="10"/>
-  </joint>
-  <link name="vacuum_gripper3">
-    <gravity>0</gravity>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <cylinder radius="0.005" length="0.03"/>
-      </geometry>
-      <material name="black">
-        <color rgba="0 0 0 0.5"/>
-      </material>
-    </visual>
-    <inertial>
-      <origin rpy="0 0 0" xyz="0.000000 0.000000 0.000000"/>
-      <mass value="0.0001"/>
-      <inertia ixx="1e-08" ixy="0" ixz="0" iyy="1e-08" iyz="0" izz="1e-08"/>
-    </inertial>
-  </link>
-  <gazebo>
-    <plugin name="gazebo_ros_vacuum_gripper3" filename="libgazebo_ros_vacuum_gripper.so"><!-- <ros>
-        <namespace>/ur5/vacuum_gripper3</namespace>
-      </ros> -->
-      <link_name>vacuum_gripper3</link_name>
-      <bodyName>vacuum_gripper3</bodyName>
-      <link_name>vacuum_gripper3</link_name>
-      <topicName>grasping3</topicName>
-      <maxForce>50</maxForce>
-      <maxDistance>0.05</maxDistance>
-      <minDistance>0.01</minDistance>
-    </plugin>
-  </gazebo>
-  <joint name="gripper_joint4" type="revolute">
-    <axis xyz="1 0 0"/>
-    <parent link="wrist_3_link"/>
-    <child link="vacuum_gripper4"/>
-    <origin rpy="1.570 0 0" xyz="0 0.04 -0.01"/>
-    <limit effort="50" velocity="50" lower="0" upper="0"/>
-    <dynamics damping="0.0" friction="10"/>
-  </joint>
-  <link name="vacuum_gripper4">
-    <gravity>0</gravity>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <cylinder radius="0.005" length="0.03"/>
-      </geometry>
-      <material name="black">
-        <color rgba="0 0 0 1"/>
-      </material>
-    </visual>
-    <inertial>
-      <origin rpy="0 0 0" xyz="0.000000 0.000000 0.000000"/>
-      <mass value="0.0001"/>
-      <inertia ixx="1e-08" ixy="0" ixz="0" iyy="1e-08" iyz="0" izz="1e-08"/>
-    </inertial>
-  </link>
-  <gazebo>
-    <plugin name="gazebo_ros_vacuum_gripper4" filename="libgazebo_ros_vacuum_gripper.so"><!-- <ros>
-        <namespace>/ur5/vacuum_gripper4</namespace>
-      </ros> -->
-      <link_name>vacuum_gripper4</link_name>
-      <bodyName>vacuum_gripper4</bodyName>
-      <link_name>vacuum_gripper4</link_name>
-      <topicName>grasping4</topicName>
-      <maxForce>50</maxForce>
-      <maxDistance>0.05</maxDistance>
-      <minDistance>0.01</minDistance>
+      <minDistance>0.05</minDistance>
     </plugin>
   </gazebo>
   <joint name="camera_joint" type="fixed">
     <axis xyz="0 1 0"/>
-    <origin xyz="0.04 0.02 0" rpy="0 0 0"/>
+    <origin xyz="0.03 0.04 0" rpy="0 0 1.508"/>
     <parent link="wrist_3_link"/>
     <child link="camera_link"/>
   </joint><!-- Camera link -->
@@ -362,15 +248,15 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.02 0.02 0.02"/>
+        <box size="0.01 0.01 0.01"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.02 0.02 0.02"/>
+        <box size="0.01 0.01 0.01"/>
       </geometry>
-      <material name="purple"/>
+      <material name="black"/>
     </visual>
     <inertial>
       <mass value="1e-5"/>
@@ -384,8 +270,8 @@
       <camera name="head">
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
-          <height>800</height>
+          <width>640</width>
+          <height>480</height>
           <format>R8G8B8</format>
         </image>
         <clip>
@@ -581,15 +467,6 @@
     <selfCollide>true</selfCollide>
   </gazebo>
   <gazebo reference="vacuum_gripper1">
-    <material>Gazebo/Black</material>
-  </gazebo>
-  <gazebo reference="vacuum_gripper2">
-    <material>Gazebo/Black</material>
-  </gazebo>
-  <gazebo reference="vacuum_gripper3">
-    <material>Gazebo/Black</material>
-  </gazebo>
-  <gazebo reference="vacuum_gripper4">
     <material>Gazebo/Black</material>
   </gazebo>
   <gazebo reference="camera_link">
