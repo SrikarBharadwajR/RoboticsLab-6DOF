@@ -98,6 +98,15 @@ def generate_launch_description():
         ],
         output="screen",
     )
+    load_proximity_sensor= ExecuteProcess(
+        cmd=[
+            "ros2",
+            "run",
+            "ur5",
+            "prox",
+        ],
+        output="screen",
+    )
 
     # Register event handlers to load controllers after the robot is spawned
     return LaunchDescription(
@@ -118,7 +127,8 @@ def generate_launch_description():
                 )
             ),
             controller_manager_node,
-            load_forward_kinematics_solver,
-            load_camera_capture,
+            # load_forward_kinematics_solver,
+            # load_camera_capture,
+            load_proximity_sensor,
         ]
     )

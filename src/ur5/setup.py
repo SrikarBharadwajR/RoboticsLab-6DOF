@@ -32,6 +32,7 @@ setup(
             "cap = ur5.capture_image:main",
             "pose = ur5.pose_publisher:main",
             "grip = ur5.vacuum_gripper_controller:main",
+            "prox = ur5.proximity:main",
         ],
     },
 )

@@ -1,0 +1,4 @@
+[0.085s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs -- -j8 -l8
+[0.123s] gmake: *** wait: No child processes.  Stop.
+[0.123s] gmake: *** Waiting for unfinished jobs....
+[0.123s] gmake: *** wait: No child processes.  Stop.
