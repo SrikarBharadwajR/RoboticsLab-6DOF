@@ -37,7 +37,9 @@ setup(
 )
 
 """
-pick - ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,0.0,1.5,0.0,1.5,0.0]
-up - ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,0.0,0.0,0.0,0.0,0.0]
-place - ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,0.0,-1.5,0.0,-1.5,0.0]
+ros2 param set /trajectory_node joint_angles "[0.0,0.0,1.5,0.0,1.5,0.0]"
+
+ros2 param set /trajectory_node joint_angles "[-0.2,0.2,-0.95,0.35,-1.57,0.0]"
+
+ros2 service call /switch std_srvs/srv/SetBool "{data: true}"
 """

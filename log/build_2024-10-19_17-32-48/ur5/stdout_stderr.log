@@ -1,0 +1,19 @@
+running egg_info
+creating ../../build/ur5/ur5.egg-info
+writing ../../build/ur5/ur5.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+writing requirements to ../../build/ur5/ur5.egg-info/requires.txt
+writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/packages
+copying resource/ur5 -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+copying launch/ur5_rviz.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+copying launch/ur5_control.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+error: can't copy 'launch/__pycache__': doesn't exist or not a regular file

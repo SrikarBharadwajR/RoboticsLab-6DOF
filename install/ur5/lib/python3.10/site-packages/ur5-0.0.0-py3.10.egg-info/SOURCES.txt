@@ -24,11 +24,13 @@ resource/ur5
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+ur5/__init__.py
 ur5/capture_image.py
 ur5/controller_fk.py
 ur5/controller_ik.py
 ur5/controller_rviz.py
 ur5/controller_rviz_ik.py
+ur5/ik.py
 ur5/pose_publisher.py
 ur5/seq.py
 ur5/vacuum_gripper_controller.py

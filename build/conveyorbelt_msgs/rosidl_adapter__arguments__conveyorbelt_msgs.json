@@ -1,0 +1,7 @@
+{
+  "package_name": "conveyorbelt_msgs",
+  "non_idl_tuples": [
+    "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/conveyorbelt_msgs:msg/ConveyorBeltState.msg",
+    "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/conveyorbelt_msgs:srv/ConveyorBeltControl.srv"
+  ]
+}
