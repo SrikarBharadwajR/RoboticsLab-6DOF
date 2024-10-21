@@ -26,7 +26,7 @@ class Capture(Node):
 
             # Save the captured image with a unique filename
             image_filename = f"/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/captures/shot.png"
-            # cv2.imwrite(image_filename, frame)
+            cv2.imwrite(image_filename, frame)
             
             # self.get_logger().info(f"Image saved")
 

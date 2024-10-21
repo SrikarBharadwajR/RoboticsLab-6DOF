@@ -584,7 +584,7 @@
           </surface>
           <max_contacts>10</max_contacts>
         </collision>
-        <collision name="wrist_3_link_fixed_joint_lump__camera_link_collision_1">
+        <!-- <collision name="wrist_3_link_fixed_joint_lump__camera_link_collision_1">
           <pose>0.03 0.04 0 0 -0 1.508</pose>
           <geometry>
             <box>
@@ -604,7 +604,7 @@
             <bounce/>
           </surface>
           <max_contacts>10</max_contacts>
-        </collision>
+        </collision> -->
         <visual name="wrist_3_link_visual">
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
@@ -640,9 +640,9 @@
           <camera name="head">
             <horizontal_fov>1.39626</horizontal_fov>
             <image>
-              <width>640</width>
-              <height>480</height>
-              <format>R8G8B8</format>
+              <width>1080</width>
+              <height>720</height>
+              <format>B8G8R8</format>
             </image>
             <clip>
               <near>0.02</near>
@@ -661,16 +661,6 @@
             <imageTopicName>image_raw</imageTopicName>
             <cameraInfoTopicName>camera_info</cameraInfoTopicName>
             <frameName>camera_link_optical</frameName>
-            <hackBaseline>0.0</hackBaseline>
-            <distortionK1>0.0</distortionK1>
-            <distortionK2>0.0</distortionK2>
-            <distortionK3>0.0</distortionK3>
-            <distortionT1>0.0</distortionT1>
-            <distortionT2>0.0</distortionT2>
-            <CxPrime>0</CxPrime>
-            <Cx>0.0</Cx>
-            <Cy>0.0</Cy>
-            <focalLength>0.0</focalLength>
           </plugin>
           <pose>0.03 0.04 0 0 -0 1.508</pose>
         </sensor>
@@ -735,7 +725,7 @@
         <link_name>vacuum_gripper1</link_name>
         <bodyName>vacuum_gripper1</bodyName>
         <topicName>grasping1</topicName>
-        <maxForce>1000000000</maxForce>
+        <maxForce>100000</maxForce>
         <maxDistance>0.05</maxDistance>
         <minDistance>0.01</minDistance>
       </plugin>
@@ -1407,7 +1397,7 @@
         <visual name="proximity_sensor_visual">
           <geometry>
             <box>
-              <size>0.05 0.01 0.01</size>
+              <size>0.05 0.01 0.02</size>
             </box>
           </geometry>
           <material>
@@ -1416,7 +1406,7 @@
           </material>
         </visual>
         <sensor name="proximity_sensor" type="ray">
-          <pose>0 0 0 0 0 0</pose>
+          <pose>0 0 0.01 0 0 0</pose>
           <ray>
             <scan>
               <horizontal>

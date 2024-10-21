@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
-
+from time import sleep
 
 class ProximitySensorNode(Node):
     def __init__(self):
@@ -20,8 +20,9 @@ class ProximitySensorNode(Node):
         distance = msg.ranges[0]
         if distance < msg.range_max:
             self.get_logger().info(f"Object detected at {distance:.3f} meters")
-        else:
-            self.get_logger().info("No object detected")
+        # else:
+        #     self.get_logger().info("No object detected")
+        sleep(0.5)
 
 
 def main(args=None):

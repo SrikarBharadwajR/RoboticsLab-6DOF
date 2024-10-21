@@ -1,0 +1,50 @@
+[2.580s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5': PYTHONPATH=/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build install --record /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/install.log --single-version-externally-managed install_data
+[3.463s] running egg_info
+[3.525s] writing ../../build/ur5/ur5.egg-info/PKG-INFO
+[3.525s] writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+[3.525s] writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+[3.525s] writing requirements to ../../build/ur5/ur5.egg-info/requires.txt
+[3.526s] writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+[3.655s] reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[3.661s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[3.662s] running build
+[3.663s] running build_py
+[3.663s] copying ur5/controller_fk.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.663s] copying ur5/seq.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.664s] copying ur5/spawn_box_scheduler.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.664s] copying ur5/pose_publisher.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.665s] copying ur5/proximity.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.666s] copying ur5/pick_and_place.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.667s] copying ur5/capture_image.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.668s] copying ur5/vacuum_gripper_controller.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.668s] copying ur5/controller_ik.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.669s] copying ur5/__init__.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.669s] copying ur5/tmp.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[3.671s] running install
+[3.688s] running install_lib
+[3.758s] copying /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5/pick_and_place.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5
+[3.759s] byte-compiling /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5/pick_and_place.py to pick_and_place.cpython-310.pyc
+[3.761s] running install_data
+[3.763s] copying launch/ur5_rviz.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[3.763s] copying launch/ur5_control.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[3.763s] copying launch/ur5_world.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[3.764s] copying launch/ur5_gazebo.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[3.765s] copying urdf/ur5_bot.urdf -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[3.766s] copying urdf/ur5_rviz_bot.urdf -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[3.767s] copying config/ur5_control.yaml -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[3.768s] running install_egg_info
+[3.828s] removing '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info' (and everything under it)
+[3.828s] Copying ../../build/ur5/ur5.egg-info to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info
+[3.830s] running install_scripts
+[4.330s] Installing cap script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.331s] Installing grip script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.332s] Installing gz script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.333s] Installing gz_ik script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.333s] Installing pnp script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.333s] Installing pose script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.334s] Installing prox script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.335s] Installing rviz script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.335s] Installing rviz_ik script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.335s] Installing scheduler script to /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5
+[4.340s] writing list of installed files to '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/install.log'
+[4.430s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5' returned '0': PYTHONPATH=/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build install --record /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/install.log --single-version-externally-managed install_data

@@ -33,6 +33,8 @@ setup(
             "pose = ur5.pose_publisher:main",
             "grip = ur5.vacuum_gripper_controller:main",
             "prox = ur5.proximity:main",
+            "scheduler = ur5.spawn_box_scheduler:main",
+            "pnp = ur5.pick_and_place:main",
         ],
     },
 )

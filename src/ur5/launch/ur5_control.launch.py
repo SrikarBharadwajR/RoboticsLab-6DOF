@@ -89,6 +89,16 @@ def generate_launch_description():
         output="screen",
     )
 
+    load_pick_and_place = ExecuteProcess(
+        cmd=[
+            "ros2",
+            "run",
+            "ur5",
+            "pnp",
+        ],
+        output="screen",
+    )
+
     load_camera_capture = ExecuteProcess(
         cmd=[
             "ros2",
@@ -104,6 +114,15 @@ def generate_launch_description():
             "run",
             "ur5",
             "prox",
+        ],
+        output="screen",
+    )    
+    load_box_scheduler = ExecuteProcess(
+        cmd=[
+            "ros2",
+            "run",
+            "ur5",
+            "scheduler",
         ],
         output="screen",
     )
@@ -127,8 +146,8 @@ def generate_launch_description():
                 )
             ),
             controller_manager_node,
-            # load_forward_kinematics_solver,
-            # load_camera_capture,
-            load_proximity_sensor,
+            load_camera_capture,
+            load_pick_and_place,
+            load_box_scheduler,
         ]
     )
