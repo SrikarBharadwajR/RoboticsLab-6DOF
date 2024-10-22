@@ -15,6 +15,7 @@ setup(
         (os.path.join("share", package_name), glob("urdf/*")),
         (os.path.join("share", package_name), glob("config/*")),
         (os.path.join("share", package_name), glob("meshes/*")),
+        # (os.path.join("share", package_name), glob("moveit/*")),
     ],
     install_requires=["setuptools"],
     zip_safe=True,

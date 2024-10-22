@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/ur5/ur5.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+writing requirements to ../../build/ur5/ur5.egg-info/requires.txt
+writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ur5/controller_fk.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/seq.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/spawn_box_scheduler.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/pose_publisher.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/proximity.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/pick_and_place.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/capture_image.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/vacuum_gripper_controller.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/controller_ik.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/__init__.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+copying ur5/tmp.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+running install
+running install_lib
+running install_data
+copying launch/ur5_rviz.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+copying launch/ur5_control.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+error: can't copy 'launch/__pycache__': doesn't exist or not a regular file

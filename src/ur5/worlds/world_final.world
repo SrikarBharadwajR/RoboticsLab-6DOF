@@ -114,7 +114,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/base_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/base_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -136,7 +136,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/base_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/base_link.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -189,7 +189,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/shoulder_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/shoulder_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -211,7 +211,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/shoulder_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/shoulder_link.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -264,7 +264,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/upper_arm_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/upper_arm_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -286,7 +286,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/upper_arm_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/upper_arm_link.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -339,7 +339,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/forearm_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/forearm_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -361,7 +361,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/forearm_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/forearm_link.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -414,7 +414,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -436,7 +436,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -489,7 +489,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_2_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_2_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -511,7 +511,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_2_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_2_link.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -564,7 +564,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_3_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_3_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -610,7 +610,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_3_link.STL</uri>
+              <uri>/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_3_link.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -640,8 +640,8 @@
           <camera name="head">
             <horizontal_fov>1.39626</horizontal_fov>
             <image>
-              <width>1080</width>
-              <height>720</height>
+              <width>640</width>
+              <height>480</height>
               <format>B8G8R8</format>
             </image>
             <clip>
@@ -1393,11 +1393,11 @@
       <link name="proximity_sensor_link">
         <static>1</static>
         <gravity>0</gravity>
-        <pose>-0.21 0 0.75 0 0 0</pose>
+        <pose>-0.21 0.06 0.759 0 0 0</pose>
         <visual name="proximity_sensor_visual">
           <geometry>
             <box>
-              <size>0.05 0.01 0.02</size>
+              <size>0.05 0.01 0.029</size>
             </box>
           </geometry>
           <material>

@@ -16,7 +16,7 @@ import cv2.aruco as aruco
 HOME_POSE = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 ARUCO_SCAN_POSE = [-0.15, 0.1, -0.9, 0.4, -1.57, -0.25]
 PICK_POSE = [-0.2, 0.2, -0.99, 0.38, -1.57, 0.0]
-BOX_1_POSE = [0.3, -0.3, 1.5, 0.1, 1.57, 0.0]
+BOX_1_POSE = [0.0, -0.2, 1.7, 0.45, 1.6, 0.0]
 BOX_2_POSE = [0.0, -0.7, 1.0, 0.1, 1.6, 0.0]
 BOX_3_POSE = [-0.6, -0.7, 1.0, 0.1, 1.6, 0.0]
 BOX_4_POSE = [-0.45, -1.0, 0.5, 0.3, 1.6, 0.0]
@@ -88,28 +88,26 @@ class TrajectoryPublisher(Node):
 
     def scan_aruco_marker(self):
         # Load the image with the ArUco marker
-        # image = cv2.imread(
-        #     "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/captures/shot.png"
-        # )
-        # if image is None:
-        #     self.get_logger().error("Could not load shot.png")
-        #     return
+        image = cv2.imread(
+            "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/captures/shot.png"
+        )
+        if image is None:
+            self.get_logger().error("Could not load shot.png")
+            return
 
-        # gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        # aruco_dict = aruco.Dictionary_get(aruco.DICT_4X4_250)
-        # parameters = aruco.DetectorParameters_create()
-        # corners, ids, _ = aruco.detectMarkers(gray, aruco_dict, parameters=parameters)
+        gray = cv2.cvtColor(cv2.flip(image, -1), cv2.COLOR_BGR2GRAY)
+        blurred = cv2.GaussianBlur(gray, (5, 5), 0)
+        equalized = cv2.equalizeHist(blurred)
+        aruco_dict = aruco.Dictionary_get(aruco.DICT_4X4_250)
+        parameters = aruco.DetectorParameters_create()
+        corners, ids, _ = aruco.detectMarkers(equalized, aruco_dict, parameters=parameters)
 
-        # if ids is not None:
-        #     self.aruco_marker_id = ids[0][0]
-        #     self.get_logger().info(f"Detected ArUco marker ID: {self.aruco_marker_id}")
-        self.goal_ = PICK_POSE
-        # else:
-        #     cv2.imshow("gray",gray)
-        #     cv2.waitKey(1)
-        #     cv2.destroyAllWindows()
-        #     self.get_logger().error("No ArUco marker detected!")
-        self.aruco_marker_id = 1
+        if ids is not None:
+            self.aruco_marker_id = ids[0][0]
+            self.get_logger().info(f"Detected ArUco marker ID: {self.aruco_marker_id}")
+            self.goal_ = PICK_POSE
+        else:
+            self.get_logger().error("No ArUco marker detected!")
 
     def move_to_box_pose(self):
         if self.aruco_marker_id == 1:

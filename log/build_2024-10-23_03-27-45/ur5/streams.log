@@ -1,0 +1,29 @@
+[1.583s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5': PYTHONPATH=/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build install --record /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/install.log --single-version-externally-managed install_data
+[2.064s] running egg_info
+[2.095s] writing ../../build/ur5/ur5.egg-info/PKG-INFO
+[2.095s] writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+[2.095s] writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+[2.096s] writing requirements to ../../build/ur5/ur5.egg-info/requires.txt
+[2.096s] writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+[2.159s] reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[2.162s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[2.162s] running build
+[2.162s] running build_py
+[2.162s] copying ur5/controller_fk.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.163s] copying ur5/seq.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.163s] copying ur5/spawn_box_scheduler.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.163s] copying ur5/pose_publisher.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.163s] copying ur5/proximity.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.163s] copying ur5/pick_and_place.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.164s] copying ur5/capture_image.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.164s] copying ur5/vacuum_gripper_controller.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.164s] copying ur5/controller_ik.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.164s] copying ur5/__init__.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.164s] copying ur5/tmp.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build/lib/ur5
+[2.165s] running install
+[2.171s] running install_lib
+[2.202s] running install_data
+[2.203s] copying launch/ur5_rviz.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[2.204s] copying launch/ur5_control.launch.py -> /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5
+[2.204s] error: can't copy 'launch/__pycache__': doesn't exist or not a regular file
+[2.247s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5' returned '1': PYTHONPATH=/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/build install --record /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/install.log --single-version-externally-managed install_data

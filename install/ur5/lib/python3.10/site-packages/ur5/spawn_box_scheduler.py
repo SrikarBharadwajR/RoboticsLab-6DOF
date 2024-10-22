@@ -10,6 +10,7 @@ box_counter = 0
 box_spawned = False
 
 class ProximityMonitor(Node):
+
     def __init__(self):
         super().__init__("proximity_monitor_node")
 
@@ -29,16 +30,27 @@ class ProximityMonitor(Node):
             self.get_logger().info("Waiting for /CONVEYORPOWER service...")
 
         ProximityMonitor.spawn_box(self)
+        self.start_time = time.time()
+
 
     def listener_callback(self, msg):
         global box_spawned
+        current_time = time.time()
         distance = msg.ranges[0]  # Assuming a single beam sensor
-        if distance < 0.4:
-            # self.get_logger().info(f"Detected object at {distance:.2f} meters")
-            if(not box_spawned):
-                self.spawn_box()
+        elapsed_time = current_time - self.start_time            
+        # self.get_logger().info(f"Elapsed Time: {elapsed_time}")
+
+        if distance < 0.4 :
             self.control_conveyor(0.0)
+
+            # self.get_logger().info(f"Detected object at {distance:.2f} meters")
+            if(not box_spawned and elapsed_time >= 35.0):
+                self.spawn_box()            
+                self.start_time = time.time()
+
             box_spawned = True
+
+
         else:
             box_spawned = False
             self.control_conveyor(10.0)
@@ -49,11 +61,7 @@ class ProximityMonitor(Node):
         request.power = float(power)
 
         self.conveyor_power_client.call_async(request)
-        
-        # if future.result() is not None:
-        #     self.get_logger().info(f"Conveyor powered with {power} units.")
-        # else:
-        #     self.get_logger().error("Failed to call /CONVEYORPOWER service")
+        # self.get_logger().info(f"Conveyor powered with {power} units.")
 
     def spawn_box(self):
         global box_counter
@@ -86,7 +94,6 @@ class ProximityMonitor(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    time.sleep(5)
     node = ProximityMonitor()
     rclpy.spin(node)
     node.destroy_node()
@@ -94,4 +101,5 @@ def main(args=None):
 
 
 if __name__ == "__main__":
+    time.sleep(5)
     main()

@@ -1,5 +1,9 @@
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch/conveyorbelt.launch.py
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch/conveyer_aruco.launch.py
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.stl
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.dae
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.sdf
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.config
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds/conveyorbelt.world
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds/conveyer_aruco_box.world
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_4.urdf

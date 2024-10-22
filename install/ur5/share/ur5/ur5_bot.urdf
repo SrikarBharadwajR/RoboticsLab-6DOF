@@ -9,7 +9,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/base_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/base_link.stl"/>
       </geometry>
       <material name="White">
         <color rgba="0 0 0 1"/>
@@ -18,7 +18,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/base_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/base_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -31,7 +31,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/shoulder_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/shoulder_link.stl"/>
       </geometry>
       <material name="Black">
         <color rgba="0 0 1 1"/>
@@ -40,7 +40,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/shoulder_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/shoulder_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -61,7 +61,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/upper_arm_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/upper_arm_link.stl"/>
       </geometry>
       <material name="Blue">
         <color rgba="0 1 0 1"/>
@@ -70,7 +70,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/upper_arm_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/upper_arm_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -91,7 +91,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/forearm_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/forearm_link.stl"/>
       </geometry>
       <material name="Green">
         <color rgba="0.5 0 0.5 1"/>
@@ -100,7 +100,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/forearm_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/forearm_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -121,7 +121,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.stl"/>
       </geometry>
       <material name="black">
         <color rgba="1 0 0 1"/>
@@ -130,7 +130,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_1_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -151,7 +151,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_2_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_2_link.stl"/>
       </geometry>
       <material name="Red">
         <color rgba="1 0.5 0 1"/>
@@ -160,7 +160,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_2_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_2_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -181,7 +181,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_3_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_3_link.stl"/>
       </geometry>
       <material name="Orange">
         <color rgba="1 1 1 1"/>
@@ -190,7 +190,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_3_link.STL"/>
+        <mesh filename="/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/meshes/wrist_3_link.stl"/>
       </geometry>
     </collision>
   </link>
