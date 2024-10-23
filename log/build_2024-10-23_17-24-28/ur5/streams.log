@@ -1,0 +1,11 @@
+[0.090s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
+[0.246s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o[0m
+[13.318s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[13.318s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:41:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KclearJointValueTargets[m[K’; did you mean ‘[01m[KsetJointValueTarget[m[K’?
+[13.318s]    41 |     move_group.[01;31m[KclearJointValueTargets[m[K();
+[13.319s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.319s]       |                [32m[KsetJointValueTarget[m[K
+[19.122s] gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76: CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o] Error 1
+[19.123s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_plan.dir/all] Error 2
+[19.124s] gmake: *** [Makefile:146: all] Error 2
+[19.131s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8

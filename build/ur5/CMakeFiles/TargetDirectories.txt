@@ -1,0 +1,10 @@
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/uninstall.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/ur5_uninstall.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/motion_plan.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/test.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/edit_cache.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/rebuild_cache.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/list_install_components.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/install.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/install/local.dir
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5/CMakeFiles/install/strip.dir

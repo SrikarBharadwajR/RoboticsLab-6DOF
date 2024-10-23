@@ -1,1 +1,1 @@
-controller_manager:gazebo_ros:joint_state_publisher:joint_state_publisher_gui:rclpy:robot_state_publisher:rviz2
+controller_manager:gazebo_ros:geometry_msgs:joint_state_publisher:joint_state_publisher_gui:moveit_core:moveit_ros_planning_interface:moveit_visual_tools:rclcpp:rclpy:robot_state_publisher:rviz2

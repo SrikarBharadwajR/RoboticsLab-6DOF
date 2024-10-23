@@ -15,7 +15,7 @@ setup(
         (os.path.join("share", package_name), glob("urdf/*")),
         (os.path.join("share", package_name), glob("config/*")),
         (os.path.join("share", package_name), glob("meshes/*")),
-        # (os.path.join("share", package_name), glob("moveit/*")),
+        (os.path.join("share", package_name), glob("moveit/*")),
     ],
     install_requires=["setuptools"],
     zip_safe=True,
@@ -36,6 +36,8 @@ setup(
             "prox = ur5.proximity:main",
             "scheduler = ur5.spawn_box_scheduler:main",
             "pnp = ur5.pick_and_place:main",
+            "mvt = ur5.moveit2_control:main",
+            # "motion_plan = ur5.motion_plan:main",
         ],
     },
 )

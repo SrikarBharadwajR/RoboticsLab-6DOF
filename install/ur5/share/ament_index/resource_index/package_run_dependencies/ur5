@@ -1,0 +1,1 @@
+rclpy;robot_state_publisher;gazebo_ros;joint_state_publisher;joint_state_publisher_gui;rviz2;controller_manager;rclcpp;geometry_msgs;moveit_ros_planning_interface;moveit_core;moveit_visual_tools;ament_copyright;ament_flake8;ament_pep257;python3-pytest

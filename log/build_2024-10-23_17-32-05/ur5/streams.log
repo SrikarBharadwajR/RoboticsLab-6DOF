@@ -1,0 +1,21 @@
+[0.094s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
+[0.305s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o[0m
+[14.067s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.067s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:17:42:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K-[m[K’ token
+[14.067s]    17 |     std::vector<double> joint_angles = [ [01;31m[K-[m[K0.15, 0.1, -0.9, 0.4, -1.57, -0.25 ]; // Example joint angles
+[14.067s]       |                                          [01;31m[K^[m[K
+[14.067s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:17:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+[14.067s]    17 |     std::vector<double> joint_angles = [ -0.15[01;31m[K,[m[K 0.1, -0.9, 0.4, -1.57, -0.25 ]; // Example joint angles
+[14.068s]       |                                               [01;31m[K^[m[K
+[14.068s]       |                                               [32m[K][m[K
+[14.068s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:[m[K In lambda function:
+[14.068s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:17:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[14.068s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.068s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:17:47:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kmain(int, char**)::<lambda()>[m[K’ to non-scalar type ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’ requested
+[14.068s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:17:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+[14.068s]    17 |     std::vector<double> joint_angles = [ -0.15, [01;31m[K0.1[m[K, -0.9, 0.4, -1.57, -0.25 ]; // Example joint angles
+[14.069s]       |                                                 [01;31m[K^~~[m[K
+[20.121s] gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76: CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o] Error 1
+[20.122s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_plan.dir/all] Error 2
+[20.126s] gmake: *** [Makefile:146: all] Error 2
+[20.130s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
