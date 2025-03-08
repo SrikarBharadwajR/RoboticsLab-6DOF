@@ -1,5 +1,6 @@
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_rviz.launch.py
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_control.launch.py
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/__pycache__/ur5_world.launch.cpython-310.pyc
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_world.launch.py
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_gazebo.launch.py
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/cpp_rviz.launch.py
@@ -26,6 +27,7 @@
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/spawn_box_scheduler.py
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/pick_and_place.py
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/moveit2_control.py
+/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/gazebo_comm.py
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/package_run_dependencies/ur5
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/parent_prefix_path/ur5
 /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/ament_prefix_path.sh

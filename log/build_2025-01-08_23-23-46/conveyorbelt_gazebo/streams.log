@@ -1,0 +1,38 @@
+[2.361s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo -- -j8 -l8
+[2.606s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo -- -j8 -l8
+[2.661s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo
+[2.675s] -- Install configuration: ""
+[2.676s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch
+[2.758s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch/conveyorbelt.launch.py
+[2.758s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch/conveyer_aruco.launch.py
+[2.758s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models
+[2.758s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt
+[2.759s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes
+[2.759s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.stl
+[2.760s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.dae
+[2.760s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.sdf
+[2.760s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.config
+[2.760s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds
+[2.760s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds/conveyorbelt.world
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds/conveyer_aruco_box.world
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_4.urdf
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_2.urdf
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_1.urdf
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_3.urdf
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/ament_index/resource_index/package_run_dependencies/conveyorbelt_gazebo
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/ament_index/resource_index/parent_prefix_path/conveyorbelt_gazebo
+[2.761s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/ament_prefix_path.sh
+[2.762s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/ament_prefix_path.dsv
+[2.762s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/path.sh
+[2.762s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/path.dsv
+[2.762s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.bash
+[2.762s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.sh
+[2.762s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.zsh
+[2.762s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.dsv
+[2.762s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.dsv
+[2.830s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/ament_index/resource_index/packages/conveyorbelt_gazebo
+[2.830s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/cmake/conveyorbelt_gazeboConfig.cmake
+[2.830s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/cmake/conveyorbelt_gazeboConfig-version.cmake
+[2.831s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.xml
+[4.624s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo

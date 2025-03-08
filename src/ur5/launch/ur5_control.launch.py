@@ -126,6 +126,15 @@ def generate_launch_description():
         ],
         output="screen",
     )
+    load_gazebo_communicate = ExecuteProcess(
+        cmd=[
+            "ros2",
+            "run",
+            "ur5",
+            "gazebo_comm.py",
+        ],
+        output="screen",
+    )
 
     # Register event handlers to load controllers after the robot is spawned
     return LaunchDescription(
@@ -147,7 +156,10 @@ def generate_launch_description():
             ),
             controller_manager_node,
             load_camera_capture,
-            # load_pick_and_place,
+            load_forward_kinematics_solver,
             load_box_scheduler,
+            load_gazebo_communicate,            
+            load_pick_and_place,
+
         ]
     )

@@ -2,13 +2,11 @@
 
 import rclpy
 from rclpy.node import Node
-from rclpy.parameter import Parameter
 from sensor_msgs.msg import JointState
-from builtin_interfaces.msg import Duration
-from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
+from trajectory_msgs.msg import JointTrajectory
 from std_srvs.srv import SetBool
 import numpy as np
-import time
+import subprocess
 import cv2
 import cv2.aruco as aruco
 
@@ -25,7 +23,7 @@ BOX_4_POSE = [-0.45, -1.0, 0.5, 0.3, 1.6, 0.0]
 class TrajectoryPublisher(Node):
 
     def __init__(self):
-        super().__init__("trajectory_node")
+        super().__init__("trajectory_follower_node")
         self.joints = [
             "shoulder_pan_joint",
             "shoulder_lift_joint",
@@ -36,15 +34,18 @@ class TrajectoryPublisher(Node):
         ]
         self.goal_ = ARUCO_SCAN_POSE
 
-        self.publisher_ = self.create_publisher(
-            JointTrajectory, "/joint_trajectory_controller/joint_trajectory", 10
+        self.joint_angles_publisher_ = self.create_publisher(
+            JointState, "/published_joint_angles", 10
         )
+
         self.timer_ = self.create_timer(1, self.timer_callback)
 
+        # Subscribe to joint states to get feedback from Gazebo
         self.joint_state_subscriber_ = self.create_subscription(
             JointState, "/joint_states", self.joint_state_callback, 10
         )
-        self.current_joint_angles_ = [0.0] * 6  # Initialize current joint angles
+
+        self.current_joint_angles_ = [0.0] * 6
 
         self.gripper_client = self.create_client(SetBool, "/switch")
         while not self.gripper_client.wait_for_service(timeout_sec=1.0):
@@ -61,20 +62,22 @@ class TrajectoryPublisher(Node):
 
         if len(joint_positions) == 6:
             self.current_joint_angles_ = joint_positions
+            # Publish the current joint angles to the new topic
+            joint_state_msg = JointState()
+            joint_state_msg.header.stamp = self.get_clock().now().to_msg()
+            joint_state_msg.name = self.joints
+            joint_state_msg.position = self.current_joint_angles_
+            # self.joint_angles_publisher_.publish(joint_state_msg)
+            # self.get_logger().info(
+            #     f"Published joint angles: {self.current_joint_angles_}"
+            # )
 
     def timer_callback(self):
-        msg = JointTrajectory()
-        msg.joint_names = self.joints
-        point = JointTrajectoryPoint()
-        point.positions = self.goal_
-        point.time_from_start = Duration(sec=2)
-        msg.points.append(point)
-        self.publisher_.publish(msg)
-
-        self.get_logger().info(f"Moving to pose: {self.goal_}")
+        # self.get_logger().info(f"Moving to pose: {self.goal_}")
+        self.send_pose_to_fk(self.goal_)
 
         if self.reached_goal(self.current_joint_angles_, self.goal_):
-            self.get_logger().info(f"Reached pose: {self.goal_}")
+            # self.get_logger().info(f"Reached pose: {self.goal_}")
 
             if self.goal_ == ARUCO_SCAN_POSE:
                 self.scan_aruco_marker()
@@ -85,6 +88,38 @@ class TrajectoryPublisher(Node):
                 self.toggle_gripper(False)
                 self.goal_ = ARUCO_SCAN_POSE  # Return to scan position
                 self.get_logger().info("Returning to ArUco scan pose.")
+
+    def send_pose_to_cpp(self, pose):
+        """Send the pose to the C++ motion planner by calling it as a subprocess."""
+        pose_args = [str(angle) for angle in pose]
+        cpp_command = [
+            "ros2",
+            "run",
+            "ur5",
+            "motion_plan",
+        ] + pose_args
+        try:
+            subprocess.run(cpp_command, check=True)
+            self.get_logger().info(f"Sent pose {pose} to C++ motion planner.")
+        except subprocess.CalledProcessError as e:
+            self.get_logger().error(f"Failed to run C++ motion planner: {str(e)}")
+
+    def send_pose_to_fk(self, pose):
+        """Send the pose to the fk planner by calling it as a subprocess."""
+        pose_args = "[" + ",".join(map(str, pose)) + "]"
+        cpp_command = [
+            "ros2",
+            "param",
+            "set",
+            "/trajectory_node",
+            "joint_angles",
+            pose_args,
+        ]
+        try:
+            subprocess.run(cpp_command, check=True)
+            # self.get_logger().info(f"Sent pose {pose} to fk planner.")
+        except subprocess.CalledProcessError as e:
+            self.get_logger().error(f"Failed to run fk planner: {str(e)}")
 
     def scan_aruco_marker(self):
         # Load the image with the ArUco marker
@@ -100,7 +135,9 @@ class TrajectoryPublisher(Node):
         equalized = cv2.equalizeHist(blurred)
         aruco_dict = aruco.Dictionary_get(aruco.DICT_4X4_250)
         parameters = aruco.DetectorParameters_create()
-        corners, ids, _ = aruco.detectMarkers(equalized, aruco_dict, parameters=parameters)
+        corners, ids, _ = aruco.detectMarkers(
+            equalized, aruco_dict, parameters=parameters
+        )
 
         if ids is not None:
             self.aruco_marker_id = ids[0][0]
@@ -121,7 +158,7 @@ class TrajectoryPublisher(Node):
         else:
             self.get_logger().error("Invalid ArUco marker ID or no marker detected!")
 
-    def reached_goal(self, current_angles, goal_angles, tolerance=0.01):
+    def reached_goal(self, current_angles, goal_angles, tolerance=0.1):
         return np.allclose(current_angles, goal_angles, atol=tolerance)
 
     def toggle_gripper(self, engage):
@@ -147,7 +184,7 @@ def main(args=None):
     rclpy.init(args=args)
     node = TrajectoryPublisher()
     rclpy.spin(node)
-    
+
     node.destroy_node()
     rclpy.shutdown()
 

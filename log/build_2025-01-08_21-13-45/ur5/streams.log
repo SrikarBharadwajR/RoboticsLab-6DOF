@@ -1,0 +1,155 @@
+[5.767s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
+[5.793s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.021s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[8.021s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[8.058s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.061s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.068s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.147s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.149s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.201s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.203s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.235s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.471s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[8.508s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[8.529s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[8.544s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.548s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.556s] -- Searching for dependencies of ignition-math6
+[8.558s] -- Looking for OGRE...
+[8.564s] -- Found Ogre Ghadamon (1.9.0)
+[8.565s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.575s] -- Looking for OGRE_Paging...
+[8.575s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.575s] -- Looking for OGRE_Terrain...
+[8.575s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.576s] -- Looking for OGRE_Property...
+[8.576s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.576s] -- Looking for OGRE_RTShaderSystem...
+[8.576s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.576s] -- Looking for OGRE_Volume...
+[8.576s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.576s] -- Looking for OGRE_Overlay...
+[8.576s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.730s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.731s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.732s] -- Searching for dependencies of ignition-transport8
+[8.750s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.762s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.766s] -- Checking for module 'libzmq >= 4'
+[8.778s] --   Found libzmq , version 4.3.4
+[8.807s] -- Checking for module 'uuid'
+[8.816s] --   Found uuid, version 2.37.2
+[8.839s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.840s] -- Searching for dependencies of ignition-msgs5
+[8.860s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.867s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.868s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.868s] -- Searching for dependencies of ignition-common3
+[8.869s] -- Looking for dlfcn.h - found
+[8.869s] -- Looking for libdl - found
+[8.881s] -- Searching for <ignition-common3> component [graphics]
+[8.882s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.882s] -- Searching for dependencies of ignition-common3-graphics
+[8.882s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.884s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.885s] -- Searching for dependencies of ignition-fuel_tools4
+[8.922s] -- Checking for module 'jsoncpp'
+[8.931s] --   Found jsoncpp, version 1.9.5
+[8.959s] -- Checking for module 'libzip'
+[8.969s] --   Found libzip, version 1.7.3
+[8.991s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.991s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.992s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.994s] -- Gazebo version: 11.10
+[8.996s] -- Found rviz2: 11.2.14 (/opt/ros/humble/share/rviz2/cmake)
+[8.996s] -- Found controller_manager: 2.46.0 (/opt/ros/humble/share/controller_manager/cmake)
+[9.154s] -- Found moveit_core: 2.5.6 (/opt/ros/humble/share/moveit_core/cmake)
+[9.167s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[9.202s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[9.221s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[9.254s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[9.435s] -- Found moveit_visual_tools: 4.1.1 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[9.475s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[9.539s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[9.544s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[9.547s] -- Found OGRE
+[9.547s] --   static     : OFF
+[9.548s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[9.548s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[9.548s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[9.548s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[9.548s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[9.548s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[9.548s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[9.548s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[9.548s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[9.548s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[9.548s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[9.699s] -- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[9.705s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[9.724s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[9.761s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[11.201s] -- Configuring done
+[15.644s] -- Generating done
+[16.994s] -- Build files have been written to: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5
+[17.112s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o[0m
+[28.613s] [100%] [32m[1mLinking CXX executable motion_plan[0m
+[39.423s] [100%] Built target motion_plan
+[40.186s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
+[41.862s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5
+[42.842s] -- Install configuration: ""
+[42.842s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch
+[42.842s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_rviz.launch.py
+[42.843s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_control.launch.py
+[42.843s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/__pycache__
+[42.843s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/__pycache__/ur5_world.launch.cpython-310.pyc
+[42.843s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_world.launch.py
+[42.843s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_gazebo.launch.py
+[42.843s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/cpp_rviz.launch.py
+[42.843s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/config
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/config/ur5_control.yaml
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_bot.urdf
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_rviz_bot_clean.urdf
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_rviz_bot.urdf
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_2_link.stl
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_1_link.stl
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/upper_arm_link.stl
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/shoulder_link.stl
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/base_link.stl
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/forearm_link.stl
+[42.844s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_3_link.stl
+[42.845s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/motion_plan
+[42.846s] -- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/motion_plan" to ""
+[42.846s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_fk.py
+[42.846s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_ik.py
+[42.846s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_rviz.py
+[42.846s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_rviz_ik.py
+[42.846s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/capture_image.py
+[42.846s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/pose_publisher.py
+[42.846s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/vacuum_gripper_controller.py
+[42.847s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/proximity.py
+[42.847s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/spawn_box_scheduler.py
+[42.847s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/pick_and_place.py
+[42.847s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/moveit2_control.py
+[42.847s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/gazebo_comm.py
+[42.847s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/package_run_dependencies/ur5
+[42.847s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/parent_prefix_path/ur5
+[42.847s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/ament_prefix_path.sh
+[42.847s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/ament_prefix_path.dsv
+[42.847s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/path.sh
+[42.847s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/path.dsv
+[43.762s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.bash
+[43.763s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.sh
+[43.763s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.zsh
+[43.763s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.dsv
+[43.763s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/package.dsv
+[43.763s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/packages/ur5
+[43.764s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/cmake/ur5Config.cmake
+[43.764s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/cmake/ur5Config-version.cmake
+[43.764s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/package.xml
+[43.787s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5

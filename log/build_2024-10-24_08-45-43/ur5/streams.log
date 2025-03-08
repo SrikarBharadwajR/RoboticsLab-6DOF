@@ -1,0 +1,57 @@
+[0.063s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
+[0.198s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o[0m
+[20.714s] [100%] [32m[1mLinking CXX executable motion_plan[0m
+[22.205s] [100%] Built target motion_plan
+[22.218s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
+[22.298s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5
+[22.305s] -- Install configuration: ""
+[22.305s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch
+[22.305s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_rviz.launch.py
+[22.305s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_control.launch.py
+[22.305s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_world.launch.py
+[22.308s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_gazebo.launch.py
+[22.308s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/cpp_rviz.launch.py
+[22.308s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/config
+[22.309s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/config/ur5_control.yaml
+[22.309s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf
+[22.309s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_bot.urdf
+[22.309s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_rviz_bot_clean.urdf
+[22.309s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_rviz_bot.urdf
+[22.309s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes
+[22.310s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_2_link.stl
+[22.310s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_1_link.stl
+[22.310s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/upper_arm_link.stl
+[22.310s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/shoulder_link.stl
+[22.310s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/base_link.stl
+[22.311s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/forearm_link.stl
+[22.311s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_3_link.stl
+[22.311s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/motion_plan
+[22.312s] -- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/motion_plan" to ""
+[22.312s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_fk.py
+[22.312s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_ik.py
+[22.312s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_rviz.py
+[22.313s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_rviz_ik.py
+[22.313s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/capture_image.py
+[22.313s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/pose_publisher.py
+[22.313s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/vacuum_gripper_controller.py
+[22.313s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/proximity.py
+[22.314s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/spawn_box_scheduler.py
+[22.315s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/pick_and_place.py
+[22.318s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/moveit2_control.py
+[22.318s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/gazebo_comm.py
+[22.318s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/package_run_dependencies/ur5
+[22.318s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/parent_prefix_path/ur5
+[22.319s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/ament_prefix_path.sh
+[22.319s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/ament_prefix_path.dsv
+[22.319s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/path.sh
+[22.319s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/path.dsv
+[22.319s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.bash
+[22.320s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.sh
+[22.321s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.zsh
+[22.324s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.dsv
+[22.324s] -- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/package.dsv
+[22.325s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/packages/ur5
+[22.325s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/cmake/ur5Config.cmake
+[22.325s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/cmake/ur5Config-version.cmake
+[22.325s] -- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/package.xml
+[22.325s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5

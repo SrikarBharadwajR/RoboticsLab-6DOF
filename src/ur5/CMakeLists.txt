@@ -76,6 +76,7 @@ install(PROGRAMS
   ur5/spawn_box_scheduler.py
   ur5/pick_and_place.py
   ur5/moveit2_control.py
+  ur5/gazebo_comm.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

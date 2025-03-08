@@ -7,5 +7,6 @@
 #include "conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.hpp"
 #include "conveyorbelt_msgs/srv/detail/conveyor_belt_control__builder.hpp"
 #include "conveyorbelt_msgs/srv/detail/conveyor_belt_control__traits.hpp"
+#include "conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.hpp"
 
 #endif  // CONVEYORBELT_MSGS__SRV__CONVEYOR_BELT_CONTROL_HPP_

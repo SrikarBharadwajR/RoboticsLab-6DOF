@@ -7,5 +7,6 @@
 #include "conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.hpp"
 #include "conveyorbelt_msgs/msg/detail/conveyor_belt_state__builder.hpp"
 #include "conveyorbelt_msgs/msg/detail/conveyor_belt_state__traits.hpp"
+#include "conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.hpp"
 
 #endif  // CONVEYORBELT_MSGS__MSG__CONVEYOR_BELT_STATE_HPP_

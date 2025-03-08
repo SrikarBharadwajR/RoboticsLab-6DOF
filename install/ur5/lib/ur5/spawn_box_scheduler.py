@@ -27,7 +27,7 @@ class ProximityMonitor(Node):
         )
 
         # Wait for the service to be available
-        while not self.conveyor_power_client.wait_for_service(timeout_sec=10.0):
+        while not self.conveyor_power_client.wait_for_service(timeout_sec=100.0):
             self.get_logger().info("Waiting for /CONVEYORPOWER service...")
 
         ProximityMonitor.spawn_box(self)
@@ -45,7 +45,7 @@ class ProximityMonitor(Node):
             self.control_conveyor(0.0)
 
             # self.get_logger().info(f"Detected object at {distance:.2f} meters")
-            if(not box_spawned and elapsed_time >= 35.0):
+            if(not box_spawned and elapsed_time >= 25.0):
                 self.spawn_box()            
                 self.start_time = time.time()
 
@@ -102,5 +102,5 @@ def main(args=None):
 
 
 if __name__ == "__main__":
-    time.sleep(5)
+    time.sleep(1)
     main()

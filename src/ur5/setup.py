@@ -37,7 +37,7 @@ setup(
             "scheduler = ur5.spawn_box_scheduler:main",
             "pnp = ur5.pick_and_place:main",
             "mvt = ur5.moveit2_control:main",
-            # "motion_plan = ur5.motion_plan:main",
+            "gazebo_comm = ur5.gazebo_comm:main",
         ],
     },
 )

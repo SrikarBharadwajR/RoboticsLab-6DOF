@@ -1,0 +1,1704 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (conveyorbelt_gazebo) JobQueued: {'identifier': 'conveyorbelt_gazebo', 'dependencies': OrderedDict()}
+[0.000192] (conveyorbelt_msgs) JobQueued: {'identifier': 'conveyorbelt_msgs', 'dependencies': OrderedDict()}
+[0.000214] (ur5) JobQueued: {'identifier': 'ur5', 'dependencies': OrderedDict()}
+[0.000234] (ros2_conveyorbelt) JobQueued: {'identifier': 'ros2_conveyorbelt', 'dependencies': OrderedDict([('conveyorbelt_msgs', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs')])}
+[0.000756] (conveyorbelt_msgs) JobStarted: {'identifier': 'conveyorbelt_msgs'}
+[0.099691] (-) TimerEvent: {}
+[0.199986] (-) TimerEvent: {}
+[0.300298] (-) TimerEvent: {}
+[0.400595] (-) TimerEvent: {}
+[0.500902] (-) TimerEvent: {}
+[0.601230] (-) TimerEvent: {}
+[0.701552] (-) TimerEvent: {}
+[0.801943] (-) TimerEvent: {}
+[0.902349] (-) TimerEvent: {}
+[0.949788] (conveyorbelt_gazebo) JobStarted: {'identifier': 'conveyorbelt_gazebo'}
+[1.002438] (-) TimerEvent: {}
+[1.102781] (-) TimerEvent: {}
+[1.203140] (-) TimerEvent: {}
+[2.062344] (ur5) JobStarted: {'identifier': 'ur5'}
+[2.062493] (-) TimerEvent: {}
+[2.162697] (-) TimerEvent: {}
+[2.263033] (-) TimerEvent: {}
+[2.363317] (-) TimerEvent: {}
+[2.463638] (-) TimerEvent: {}
+[2.563984] (-) TimerEvent: {}
+[2.664320] (-) TimerEvent: {}
+[2.764692] (-) TimerEvent: {}
+[2.864978] (-) TimerEvent: {}
+[2.965282] (-) TimerEvent: {}
+[3.065569] (-) TimerEvent: {}
+[3.165922] (-) TimerEvent: {}
+[3.266236] (-) TimerEvent: {}
+[3.366650] (-) TimerEvent: {}
+[3.466973] (-) TimerEvent: {}
+[3.567315] (-) TimerEvent: {}
+[3.667655] (-) TimerEvent: {}
+[3.767983] (-) TimerEvent: {}
+[3.868360] (-) TimerEvent: {}
+[3.968729] (-) TimerEvent: {}
+[4.069134] (-) TimerEvent: {}
+[4.169495] (-) TimerEvent: {}
+[4.269831] (-) TimerEvent: {}
+[4.370220] (-) TimerEvent: {}
+[4.470590] (-) TimerEvent: {}
+[4.570944] (-) TimerEvent: {}
+[4.671324] (-) TimerEvent: {}
+[4.771640] (-) TimerEvent: {}
+[4.871981] (-) TimerEvent: {}
+[4.972367] (-) TimerEvent: {}
+[5.072862] (-) TimerEvent: {}
+[5.173197] (-) TimerEvent: {}
+[5.273647] (-) TimerEvent: {}
+[5.275529] (conveyorbelt_msgs) JobProgress: {'identifier': 'conveyorbelt_msgs', 'progress': 'cmake'}
+[5.373731] (-) TimerEvent: {}
+[5.474024] (-) TimerEvent: {}
+[5.574393] (-) TimerEvent: {}
+[5.674715] (-) TimerEvent: {}
+[5.775049] (-) TimerEvent: {}
+[5.875368] (-) TimerEvent: {}
+[5.975744] (-) TimerEvent: {}
+[6.076077] (-) TimerEvent: {}
+[6.176408] (-) TimerEvent: {}
+[6.276827] (-) TimerEvent: {}
+[6.592899] (conveyorbelt_msgs) JobProgress: {'identifier': 'conveyorbelt_msgs', 'progress': 'build'}
+[6.593213] (-) TimerEvent: {}
+[6.597068] (conveyorbelt_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs', '--', '-j8', '-l8'], 'cwd': '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'srikar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('HOME', '/home/srikar'), ('OLDPWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1820'), ('SYSTEMD_EXEC_PID', '2129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/srikar/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87777'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srikar'), ('JOURNAL_STREAM', '8:14864'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'srikar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/srikar/miniconda3/bin:/home/srikar/.local/bin:/home/srikar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/geckodriver'), ('SESSION_MANAGER', 'local/srikar-Tesla-Vostro-3580:@/tmp/.ICE-unix/2099,unix/srikar-Tesla-Vostro-3580:/tmp/.ICE-unix/2099'), ('INVOCATION_ID', '882071b6c38143aabc98060a756cc347'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78fa7cda-c47e-4b44-bd7e-bbb25c7f357c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/srikar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.772894] (-) TimerEvent: {}
+[6.773046] (conveyorbelt_gazebo) JobProgress: {'identifier': 'conveyorbelt_gazebo', 'progress': 'cmake'}
+[6.784803] (conveyorbelt_gazebo) JobProgress: {'identifier': 'conveyorbelt_gazebo', 'progress': 'build'}
+[6.785341] (conveyorbelt_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo', '--', '-j8', '-l8'], 'cwd': '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'srikar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('HOME', '/home/srikar'), ('OLDPWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1820'), ('SYSTEMD_EXEC_PID', '2129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/srikar/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87777'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srikar'), ('JOURNAL_STREAM', '8:14864'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'srikar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/srikar/miniconda3/bin:/home/srikar/.local/bin:/home/srikar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/geckodriver'), ('SESSION_MANAGER', 'local/srikar-Tesla-Vostro-3580:@/tmp/.ICE-unix/2099,unix/srikar-Tesla-Vostro-3580:/tmp/.ICE-unix/2099'), ('INVOCATION_ID', '882071b6c38143aabc98060a756cc347'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78fa7cda-c47e-4b44-bd7e-bbb25c7f357c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/srikar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.788421] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.789758] (ur5) JobProgress: {'identifier': 'ur5', 'progress': 'cmake'}
+[6.789895] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.804817] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.873011] (-) TimerEvent: {}
+[6.973331] (-) TimerEvent: {}
+[7.073659] (-) TimerEvent: {}
+[7.173960] (-) TimerEvent: {}
+[7.274262] (-) TimerEvent: {}
+[7.374581] (-) TimerEvent: {}
+[7.474932] (-) TimerEvent: {}
+[7.575397] (-) TimerEvent: {}
+[7.675676] (-) TimerEvent: {}
+[7.775969] (-) TimerEvent: {}
+[7.825931] (ur5) JobProgress: {'identifier': 'ur5', 'progress': 'build'}
+[7.826808] (ur5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5', '--', '-j8', '-l8'], 'cwd': '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'srikar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('HOME', '/home/srikar'), ('OLDPWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1820'), ('SYSTEMD_EXEC_PID', '2129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/srikar/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87777'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srikar'), ('JOURNAL_STREAM', '8:14864'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'srikar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/srikar/miniconda3/bin:/home/srikar/.local/bin:/home/srikar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/geckodriver'), ('SESSION_MANAGER', 'local/srikar-Tesla-Vostro-3580:@/tmp/.ICE-unix/2099,unix/srikar-Tesla-Vostro-3580:/tmp/.ICE-unix/2099'), ('INVOCATION_ID', '882071b6c38143aabc98060a756cc347'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78fa7cda-c47e-4b44-bd7e-bbb25c7f357c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/srikar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.852244] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.854707] (ur5) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.856097] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.858884] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.865236] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.876065] (-) TimerEvent: {}
+[7.929964] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.976193] (-) TimerEvent: {}
+[8.076460] (-) TimerEvent: {}
+[8.176806] (-) TimerEvent: {}
+[8.277128] (-) TimerEvent: {}
+[8.377443] (-) TimerEvent: {}
+[8.477715] (-) TimerEvent: {}
+[8.578006] (-) TimerEvent: {}
+[8.678323] (-) TimerEvent: {}
+[8.778682] (-) TimerEvent: {}
+[8.879005] (-) TimerEvent: {}
+[8.979381] (-) TimerEvent: {}
+[9.079654] (-) TimerEvent: {}
+[9.179952] (-) TimerEvent: {}
+[9.280241] (-) TimerEvent: {}
+[9.380563] (-) TimerEvent: {}
+[9.480851] (-) TimerEvent: {}
+[9.581183] (-) TimerEvent: {}
+[9.681478] (-) TimerEvent: {}
+[9.781801] (-) TimerEvent: {}
+[9.882132] (-) TimerEvent: {}
+[9.982484] (-) TimerEvent: {}
+[10.082813] (-) TimerEvent: {}
+[10.083182] (ur5) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[10.083706] (ur5) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[10.120404] (ur5) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.123131] (ur5) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.130539] (ur5) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.141679] (ur5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.155688] (ur5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.182906] (-) TimerEvent: {}
+[10.208955] (ur5) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[10.210964] (ur5) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[10.263146] (ur5) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.265586] (ur5) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[10.282995] (-) TimerEvent: {}
+[10.296838] (ur5) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[10.383104] (-) TimerEvent: {}
+[10.483457] (-) TimerEvent: {}
+[10.532829] (ur5) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[10.569760] (ur5) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[10.583574] (-) TimerEvent: {}
+[10.591532] (ur5) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[10.606091] (ur5) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[10.610153] (ur5) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.618217] (ur5) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[10.620694] (ur5) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[10.626446] (ur5) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[10.626819] (ur5) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[10.637215] (ur5) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[10.637424] (ur5) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[10.637576] (ur5) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[10.637739] (ur5) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[10.637831] (ur5) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[10.637963] (ur5) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[10.638039] (ur5) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[10.638158] (ur5) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[10.638228] (ur5) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[10.638330] (ur5) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[10.638401] (ur5) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[10.638467] (ur5) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[10.683706] (-) TimerEvent: {}
+[10.784007] (-) TimerEvent: {}
+[10.792311] (ur5) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.793382] (ur5) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[10.794065] (ur5) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[10.811858] (ur5) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[10.824356] (ur5) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[10.828650] (ur5) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[10.839845] (ur5) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[10.869211] (ur5) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[10.878528] (ur5) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[10.884123] (-) TimerEvent: {}
+[10.901310] (ur5) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.901939] (ur5) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[10.922002] (ur5) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.929327] (ur5) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.930195] (ur5) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.930762] (ur5) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[10.931037] (ur5) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[10.931122] (ur5) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[10.943120] (ur5) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[10.943843] (ur5) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[10.944342] (ur5) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[10.944712] (ur5) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.946456] (ur5) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[10.946906] (ur5) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[10.984220] (-) TimerEvent: {}
+[10.984422] (ur5) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[10.992885] (ur5) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[11.021719] (ur5) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[11.031082] (ur5) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[11.052863] (ur5) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[11.053179] (ur5) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.053794] (ur5) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[11.056391] (ur5) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[11.058036] (ur5) StdoutLine: {'line': b'-- Found rviz2: 11.2.14 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[11.058568] (ur5) StdoutLine: {'line': b'-- Found controller_manager: 2.46.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[11.084321] (-) TimerEvent: {}
+[11.184686] (-) TimerEvent: {}
+[11.215788] (ur5) StdoutLine: {'line': b'-- Found moveit_core: 2.5.6 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[11.229039] (ur5) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[11.263910] (ur5) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[11.283096] (ur5) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[11.284746] (-) TimerEvent: {}
+[11.316517] (ur5) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[11.384891] (-) TimerEvent: {}
+[11.485220] (-) TimerEvent: {}
+[11.497377] (ur5) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.1 (/opt/ros/humble/share/moveit_visual_tools/cmake)\n'}
+[11.537237] (ur5) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[11.585354] (-) TimerEvent: {}
+[11.601381] (ur5) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[11.606154] (ur5) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[11.608739] (ur5) StdoutLine: {'line': b'-- Found OGRE\n'}
+[11.609580] (ur5) StdoutLine: {'line': b'--   static     : OFF\n'}
+[11.609854] (ur5) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[11.609948] (ur5) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[11.610037] (ur5) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[11.610170] (ur5) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[11.610233] (ur5) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[11.610294] (ur5) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[11.610355] (ur5) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[11.610416] (ur5) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[11.610481] (ur5) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[11.610542] (ur5) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[11.610602] (ur5) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[11.685491] (-) TimerEvent: {}
+[11.761531] (ur5) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[11.767496] (ur5) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[11.785642] (-) TimerEvent: {}
+[11.786134] (ur5) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[11.822815] (ur5) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[11.885740] (-) TimerEvent: {}
+[11.986025] (-) TimerEvent: {}
+[12.086354] (-) TimerEvent: {}
+[12.186716] (-) TimerEvent: {}
+[12.195534] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[13.256974] (-) TimerEvent: {}
+[13.261511] (conveyorbelt_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.262717] (ur5) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.267063] (conveyorbelt_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.267433] (conveyorbelt_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.268409] (conveyorbelt_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.270763] (conveyorbelt_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.271876] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.276153] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[13.357072] (-) TimerEvent: {}
+[13.457358] (-) TimerEvent: {}
+[13.557705] (-) TimerEvent: {}
+[13.658033] (-) TimerEvent: {}
+[13.758358] (-) TimerEvent: {}
+[13.858719] (-) TimerEvent: {}
+[13.959071] (-) TimerEvent: {}
+[14.059385] (-) TimerEvent: {}
+[14.159709] (-) TimerEvent: {}
+[14.260022] (-) TimerEvent: {}
+[14.360316] (-) TimerEvent: {}
+[14.460687] (-) TimerEvent: {}
+[14.561012] (-) TimerEvent: {}
+[14.661294] (-) TimerEvent: {}
+[14.761579] (-) TimerEvent: {}
+[14.861938] (-) TimerEvent: {}
+[14.962308] (-) TimerEvent: {}
+[15.062637] (-) TimerEvent: {}
+[15.162950] (-) TimerEvent: {}
+[15.263267] (-) TimerEvent: {}
+[15.363714] (-) TimerEvent: {}
+[15.464070] (-) TimerEvent: {}
+[15.480736] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo\n'}
+[15.495380] (conveyorbelt_gazebo) CommandEnded: {'returncode': 0}
+[15.516091] (conveyorbelt_gazebo) JobProgress: {'identifier': 'conveyorbelt_gazebo', 'progress': 'install'}
+[15.564212] (-) TimerEvent: {}
+[15.565497] (conveyorbelt_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo'], 'cwd': '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'srikar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('HOME', '/home/srikar'), ('OLDPWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1820'), ('SYSTEMD_EXEC_PID', '2129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/srikar/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87777'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srikar'), ('JOURNAL_STREAM', '8:14864'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'srikar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/srikar/miniconda3/bin:/home/srikar/.local/bin:/home/srikar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/geckodriver'), ('SESSION_MANAGER', 'local/srikar-Tesla-Vostro-3580:@/tmp/.ICE-unix/2099,unix/srikar-Tesla-Vostro-3580:/tmp/.ICE-unix/2099'), ('INVOCATION_ID', '882071b6c38143aabc98060a756cc347'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78fa7cda-c47e-4b44-bd7e-bbb25c7f357c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/srikar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.570090] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.572460] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.572966] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch\n'}
+[15.573341] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch/conveyorbelt.launch.py\n'}
+[15.573655] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch/conveyer_aruco.launch.py\n'}
+[15.573906] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models\n'}
+[15.574108] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt\n'}
+[15.574348] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes\n'}
+[15.574593] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.stl\n'}
+[15.574852] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.dae\n'}
+[15.575052] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.sdf\n'}
+[15.575279] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.config\n'}
+[15.575519] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds\n'}
+[15.575762] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds/conveyorbelt.world\n'}
+[15.575974] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds/conveyer_aruco_box.world\n'}
+[15.576156] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf\n'}
+[15.576405] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_4.urdf\n'}
+[15.576631] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_2.urdf\n'}
+[15.576834] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_1.urdf\n'}
+[15.577008] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box_3.urdf\n'}
+[15.577181] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/ament_index/resource_index/package_run_dependencies/conveyorbelt_gazebo\n'}
+[15.577354] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/ament_index/resource_index/parent_prefix_path/conveyorbelt_gazebo\n'}
+[15.577526] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/ament_prefix_path.sh\n'}
+[15.577714] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/ament_prefix_path.dsv\n'}
+[15.577911] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/path.sh\n'}
+[15.578082] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/path.dsv\n'}
+[15.578248] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.bash\n'}
+[15.578414] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.sh\n'}
+[15.578598] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.zsh\n'}
+[15.578774] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.dsv\n'}
+[15.578939] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.dsv\n'}
+[15.579099] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/ament_index/resource_index/packages/conveyorbelt_gazebo\n'}
+[15.579260] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/cmake/conveyorbelt_gazeboConfig.cmake\n'}
+[15.579423] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/cmake/conveyorbelt_gazeboConfig-version.cmake\n'}
+[15.579583] (conveyorbelt_gazebo) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.xml\n'}
+[15.664342] (-) TimerEvent: {}
+[15.764694] (-) TimerEvent: {}
+[15.867522] (-) TimerEvent: {}
+[15.967878] (-) TimerEvent: {}
+[16.068204] (-) TimerEvent: {}
+[16.168501] (-) TimerEvent: {}
+[16.268805] (-) TimerEvent: {}
+[16.369117] (-) TimerEvent: {}
+[16.605613] (conveyorbelt_gazebo) CommandEnded: {'returncode': 0}
+[17.647436] (-) TimerEvent: {}
+[17.706277] (ur5) StdoutLine: {'line': b'-- Generating done\n'}
+[17.747538] (-) TimerEvent: {}
+[17.847837] (-) TimerEvent: {}
+[17.948186] (-) TimerEvent: {}
+[18.048565] (-) TimerEvent: {}
+[18.148899] (-) TimerEvent: {}
+[18.249175] (-) TimerEvent: {}
+[18.349449] (-) TimerEvent: {}
+[18.449790] (-) TimerEvent: {}
+[18.550079] (-) TimerEvent: {}
+[18.650381] (-) TimerEvent: {}
+[18.750718] (-) TimerEvent: {}
+[18.851002] (-) TimerEvent: {}
+[18.951314] (-) TimerEvent: {}
+[19.051660] (-) TimerEvent: {}
+[19.056065] (ur5) StdoutLine: {'line': b'-- Build files have been written to: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5\n'}
+[19.088665] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.122224] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[19.150609] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[19.150836] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[19.150961] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[19.151724] (-) TimerEvent: {}
+[19.173836] (ur5) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o\x1b[0m\n'}
+[19.251835] (-) TimerEvent: {}
+[19.352123] (-) TimerEvent: {}
+[19.452416] (-) TimerEvent: {}
+[19.552677] (-) TimerEvent: {}
+[19.652945] (-) TimerEvent: {}
+[19.753210] (-) TimerEvent: {}
+[19.853494] (-) TimerEvent: {}
+[19.953860] (-) TimerEvent: {}
+[20.054180] (-) TimerEvent: {}
+[20.154526] (-) TimerEvent: {}
+[20.254825] (-) TimerEvent: {}
+[20.355156] (-) TimerEvent: {}
+[20.455510] (-) TimerEvent: {}
+[20.555865] (-) TimerEvent: {}
+[20.656136] (-) TimerEvent: {}
+[20.756526] (-) TimerEvent: {}
+[20.856924] (-) TimerEvent: {}
+[20.957208] (-) TimerEvent: {}
+[21.057550] (-) TimerEvent: {}
+[21.157867] (-) TimerEvent: {}
+[21.258229] (-) TimerEvent: {}
+[21.358560] (-) TimerEvent: {}
+[21.458925] (-) TimerEvent: {}
+[21.559270] (-) TimerEvent: {}
+[21.659567] (-) TimerEvent: {}
+[21.759961] (-) TimerEvent: {}
+[22.351911] (conveyorbelt_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[23.508360] (-) TimerEvent: {}
+[23.508576] (conveyorbelt_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[23.508765] (conveyorbelt_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[23.508907] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.608459] (-) TimerEvent: {}
+[23.708776] (-) TimerEvent: {}
+[23.809108] (-) TimerEvent: {}
+[23.909474] (-) TimerEvent: {}
+[24.009796] (-) TimerEvent: {}
+[24.110079] (-) TimerEvent: {}
+[24.210410] (-) TimerEvent: {}
+[24.310762] (-) TimerEvent: {}
+[24.411144] (-) TimerEvent: {}
+[24.511444] (-) TimerEvent: {}
+[24.546299] (conveyorbelt_gazebo) JobEnded: {'identifier': 'conveyorbelt_gazebo', 'rc': 0}
+[25.631470] (-) TimerEvent: {}
+[25.731833] (-) TimerEvent: {}
+[25.832184] (-) TimerEvent: {}
+[25.932547] (-) TimerEvent: {}
+[26.032915] (-) TimerEvent: {}
+[26.133445] (-) TimerEvent: {}
+[26.233713] (-) TimerEvent: {}
+[26.333986] (-) TimerEvent: {}
+[26.434313] (-) TimerEvent: {}
+[26.534661] (-) TimerEvent: {}
+[26.634934] (-) TimerEvent: {}
+[26.735239] (-) TimerEvent: {}
+[26.835564] (-) TimerEvent: {}
+[26.935852] (-) TimerEvent: {}
+[27.036151] (-) TimerEvent: {}
+[27.136484] (-) TimerEvent: {}
+[27.236768] (-) TimerEvent: {}
+[27.337103] (-) TimerEvent: {}
+[27.437454] (-) TimerEvent: {}
+[27.537793] (-) TimerEvent: {}
+[27.638196] (-) TimerEvent: {}
+[27.738609] (-) TimerEvent: {}
+[27.839008] (-) TimerEvent: {}
+[27.939414] (-) TimerEvent: {}
+[28.039702] (-) TimerEvent: {}
+[28.140048] (-) TimerEvent: {}
+[28.240351] (-) TimerEvent: {}
+[28.340679] (-) TimerEvent: {}
+[28.440992] (-) TimerEvent: {}
+[28.541319] (-) TimerEvent: {}
+[28.641693] (-) TimerEvent: {}
+[28.742009] (-) TimerEvent: {}
+[28.842446] (-) TimerEvent: {}
+[28.942769] (-) TimerEvent: {}
+[29.043037] (-) TimerEvent: {}
+[29.119313] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[29.123187] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Build files have been written to: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs\n'}
+[29.143128] (-) TimerEvent: {}
+[29.155557] (conveyorbelt_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[29.159998] (conveyorbelt_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[29.243227] (-) TimerEvent: {}
+[29.343636] (-) TimerEvent: {}
+[29.443993] (-) TimerEvent: {}
+[29.488718] (conveyorbelt_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_conveyorbelt_msgs\n'}
+[29.544101] (-) TimerEvent: {}
+[29.644436] (-) TimerEvent: {}
+[29.744763] (-) TimerEvent: {}
+[29.845184] (-) TimerEvent: {}
+[29.945612] (-) TimerEvent: {}
+[30.046504] (-) TimerEvent: {}
+[30.146853] (-) TimerEvent: {}
+[30.247134] (-) TimerEvent: {}
+[30.263314] (conveyorbelt_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[30.298670] (conveyorbelt_msgs) StdoutLine: {'line': b'writing conveyorbelt_msgs.egg-info/PKG-INFO\n'}
+[30.347227] (-) TimerEvent: {}
+[30.447521] (-) TimerEvent: {}
+[30.547937] (-) TimerEvent: {}
+[30.640922] (ur5) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motion_plan\x1b[0m\n'}
+[30.675050] (-) TimerEvent: {}
+[30.775352] (-) TimerEvent: {}
+[30.875684] (-) TimerEvent: {}
+[30.976051] (-) TimerEvent: {}
+[31.076361] (-) TimerEvent: {}
+[31.176707] (-) TimerEvent: {}
+[31.277040] (-) TimerEvent: {}
+[31.369005] (conveyorbelt_msgs) StdoutLine: {'line': b'writing dependency_links to conveyorbelt_msgs.egg-info/dependency_links.txt\n'}
+[31.377150] (-) TimerEvent: {}
+[31.477560] (-) TimerEvent: {}
+[31.577894] (-) TimerEvent: {}
+[31.678247] (-) TimerEvent: {}
+[31.778559] (-) TimerEvent: {}
+[32.443709] (conveyorbelt_msgs) StdoutLine: {'line': b'writing top-level names to conveyorbelt_msgs.egg-info/top_level.txt\n'}
+[32.444394] (-) TimerEvent: {}
+[32.545046] (-) TimerEvent: {}
+[32.645391] (-) TimerEvent: {}
+[32.745710] (-) TimerEvent: {}
+[32.846112] (-) TimerEvent: {}
+[32.946796] (-) TimerEvent: {}
+[33.047324] (-) TimerEvent: {}
+[33.147819] (-) TimerEvent: {}
+[33.248186] (-) TimerEvent: {}
+[33.348652] (-) TimerEvent: {}
+[33.449054] (-) TimerEvent: {}
+[33.549361] (-) TimerEvent: {}
+[33.584768] (conveyorbelt_msgs) StdoutLine: {'line': b"reading manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'\n"}
+[33.585906] (conveyorbelt_msgs) StdoutLine: {'line': b"writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'\n"}
+[33.617572] (conveyorbelt_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_conveyorbelt_msgs_egg\n'}
+[33.649465] (-) TimerEvent: {}
+[33.749854] (-) TimerEvent: {}
+[33.850289] (-) TimerEvent: {}
+[33.950691] (-) TimerEvent: {}
+[34.051046] (-) TimerEvent: {}
+[34.151486] (-) TimerEvent: {}
+[34.252224] (-) TimerEvent: {}
+[34.353036] (-) TimerEvent: {}
+[34.453863] (-) TimerEvent: {}
+[34.554214] (-) TimerEvent: {}
+[34.654530] (-) TimerEvent: {}
+[34.755021] (-) TimerEvent: {}
+[34.855332] (-) TimerEvent: {}
+[34.919645] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_c.dir/rosidl_generator_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.c.o\x1b[0m\n'}
+[34.919883] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_c.dir/rosidl_generator_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.c.o\x1b[0m\n'}
+[34.955508] (-) TimerEvent: {}
+[35.056187] (-) TimerEvent: {}
+[35.156587] (-) TimerEvent: {}
+[35.256887] (-) TimerEvent: {}
+[35.357184] (-) TimerEvent: {}
+[35.457481] (-) TimerEvent: {}
+[35.557782] (-) TimerEvent: {}
+[35.658114] (-) TimerEvent: {}
+[35.758478] (-) TimerEvent: {}
+[35.858785] (-) TimerEvent: {}
+[35.959059] (-) TimerEvent: {}
+[35.990830] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libconveyorbelt_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[36.059164] (-) TimerEvent: {}
+[36.159463] (-) TimerEvent: {}
+[36.259790] (-) TimerEvent: {}
+[36.360112] (-) TimerEvent: {}
+[36.460407] (-) TimerEvent: {}
+[36.560800] (-) TimerEvent: {}
+[36.661273] (-) TimerEvent: {}
+[36.761750] (-) TimerEvent: {}
+[36.862145] (-) TimerEvent: {}
+[36.962643] (-) TimerEvent: {}
+[37.123734] (-) TimerEvent: {}
+[37.224167] (-) TimerEvent: {}
+[37.324913] (-) TimerEvent: {}
+[37.425566] (-) TimerEvent: {}
+[37.526183] (-) TimerEvent: {}
+[37.626523] (-) TimerEvent: {}
+[37.726928] (-) TimerEvent: {}
+[37.827662] (-) TimerEvent: {}
+[37.928140] (-) TimerEvent: {}
+[38.028566] (-) TimerEvent: {}
+[38.128964] (-) TimerEvent: {}
+[38.229378] (-) TimerEvent: {}
+[38.329794] (-) TimerEvent: {}
+[38.430194] (-) TimerEvent: {}
+[38.530574] (-) TimerEvent: {}
+[38.630981] (-) TimerEvent: {}
+[38.731268] (-) TimerEvent: {}
+[38.831538] (-) TimerEvent: {}
+[38.931844] (-) TimerEvent: {}
+[39.032201] (-) TimerEvent: {}
+[39.132501] (-) TimerEvent: {}
+[39.232834] (-) TimerEvent: {}
+[39.333099] (-) TimerEvent: {}
+[39.433410] (-) TimerEvent: {}
+[39.533670] (-) TimerEvent: {}
+[39.633936] (-) TimerEvent: {}
+[39.734253] (-) TimerEvent: {}
+[39.834539] (-) TimerEvent: {}
+[39.934832] (-) TimerEvent: {}
+[40.035150] (-) TimerEvent: {}
+[40.135583] (-) TimerEvent: {}
+[40.235901] (-) TimerEvent: {}
+[40.336227] (-) TimerEvent: {}
+[40.436518] (-) TimerEvent: {}
+[40.536826] (-) TimerEvent: {}
+[40.637146] (-) TimerEvent: {}
+[40.737477] (-) TimerEvent: {}
+[40.837727] (-) TimerEvent: {}
+[40.938044] (-) TimerEvent: {}
+[41.038321] (-) TimerEvent: {}
+[41.138668] (-) TimerEvent: {}
+[41.238957] (-) TimerEvent: {}
+[41.339281] (-) TimerEvent: {}
+[41.439651] (-) TimerEvent: {}
+[41.484876] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 12%] Built target conveyorbelt_msgs__cpp\n'}
+[41.485157] (ur5) StdoutLine: {'line': b'[100%] Built target motion_plan\n'}
+[41.507501] (ur5) CommandEnded: {'returncode': 0}
+[42.463589] (-) TimerEvent: {}
+[42.464993] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[42.476394] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[42.563708] (-) TimerEvent: {}
+[42.664208] (-) TimerEvent: {}
+[42.765166] (-) TimerEvent: {}
+[42.866032] (-) TimerEvent: {}
+[42.966400] (-) TimerEvent: {}
+[43.066735] (-) TimerEvent: {}
+[43.167077] (-) TimerEvent: {}
+[43.267501] (-) TimerEvent: {}
+[43.368113] (-) TimerEvent: {}
+[43.468517] (-) TimerEvent: {}
+[43.569240] (-) TimerEvent: {}
+[43.669538] (-) TimerEvent: {}
+[43.769846] (-) TimerEvent: {}
+[43.870133] (-) TimerEvent: {}
+[43.922035] (ur5) JobProgress: {'identifier': 'ur5', 'progress': 'install'}
+[43.922791] (ur5) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5'], 'cwd': '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'srikar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('HOME', '/home/srikar'), ('OLDPWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1820'), ('SYSTEMD_EXEC_PID', '2129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/srikar/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87777'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srikar'), ('JOURNAL_STREAM', '8:14864'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'srikar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/srikar/miniconda3/bin:/home/srikar/.local/bin:/home/srikar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/geckodriver'), ('SESSION_MANAGER', 'local/srikar-Tesla-Vostro-3580:@/tmp/.ICE-unix/2099,unix/srikar-Tesla-Vostro-3580:/tmp/.ICE-unix/2099'), ('INVOCATION_ID', '882071b6c38143aabc98060a756cc347'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78fa7cda-c47e-4b44-bd7e-bbb25c7f357c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/srikar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[43.970211] (-) TimerEvent: {}
+[44.070540] (-) TimerEvent: {}
+[44.171577] (-) TimerEvent: {}
+[44.271957] (-) TimerEvent: {}
+[44.372264] (-) TimerEvent: {}
+[44.472635] (-) TimerEvent: {}
+[44.572919] (-) TimerEvent: {}
+[44.673219] (-) TimerEvent: {}
+[44.773489] (-) TimerEvent: {}
+[44.873778] (-) TimerEvent: {}
+[44.903953] (ur5) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.904566] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch\n'}
+[44.904748] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_rviz.launch.py\n'}
+[44.904900] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_control.launch.py\n'}
+[44.905063] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/__pycache__\n'}
+[44.905244] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/__pycache__/ur5_world.launch.cpython-310.pyc\n'}
+[44.905395] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_world.launch.py\n'}
+[44.905578] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/ur5_gazebo.launch.py\n'}
+[44.905686] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/launch/cpp_rviz.launch.py\n'}
+[44.905759] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/config\n'}
+[44.905857] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/config/ur5_control.yaml\n'}
+[44.905929] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf\n'}
+[44.905998] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_bot.urdf\n'}
+[44.906068] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_rviz_bot_clean.urdf\n'}
+[44.906137] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/urdf/ur5_rviz_bot.urdf\n'}
+[44.906205] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes\n'}
+[44.906275] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_2_link.stl\n'}
+[44.906344] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_1_link.stl\n'}
+[44.906428] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/upper_arm_link.stl\n'}
+[44.906497] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/shoulder_link.stl\n'}
+[44.906570] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/base_link.stl\n'}
+[44.906680] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/forearm_link.stl\n'}
+[44.906797] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/meshes/wrist_3_link.stl\n'}
+[44.906898] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/motion_plan\n'}
+[44.907740] (ur5) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/motion_plan" to ""\n'}
+[44.908004] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_fk.py\n'}
+[44.908144] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_ik.py\n'}
+[44.908235] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_rviz.py\n'}
+[44.908353] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/controller_rviz_ik.py\n'}
+[44.908469] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/capture_image.py\n'}
+[44.908559] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/pose_publisher.py\n'}
+[44.908698] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/vacuum_gripper_controller.py\n'}
+[44.908823] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/proximity.py\n'}
+[44.908926] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/spawn_box_scheduler.py\n'}
+[44.909019] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/pick_and_place.py\n'}
+[44.909110] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/moveit2_control.py\n'}
+[44.909200] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/lib/ur5/gazebo_comm.py\n'}
+[44.909290] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/package_run_dependencies/ur5\n'}
+[44.909383] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/parent_prefix_path/ur5\n'}
+[44.909484] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/ament_prefix_path.sh\n'}
+[44.909577] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/ament_prefix_path.dsv\n'}
+[44.909683] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/path.sh\n'}
+[44.909777] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/environment/path.dsv\n'}
+[44.973863] (-) TimerEvent: {}
+[45.074204] (-) TimerEvent: {}
+[45.174486] (-) TimerEvent: {}
+[45.274768] (-) TimerEvent: {}
+[45.375043] (-) TimerEvent: {}
+[45.475335] (-) TimerEvent: {}
+[45.575603] (-) TimerEvent: {}
+[45.675890] (-) TimerEvent: {}
+[45.776164] (-) TimerEvent: {}
+[45.824556] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.bash\n'}
+[45.824898] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.sh\n'}
+[45.825095] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.zsh\n'}
+[45.825307] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/local_setup.dsv\n'}
+[45.825470] (ur5) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/package.dsv\n'}
+[45.825633] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ament_index/resource_index/packages/ur5\n'}
+[45.825796] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/cmake/ur5Config.cmake\n'}
+[45.825951] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/cmake/ur5Config-version.cmake\n'}
+[45.826107] (ur5) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ur5/share/ur5/package.xml\n'}
+[45.848651] (ur5) CommandEnded: {'returncode': 0}
+[45.853539] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 17%] Built target conveyorbelt_msgs__rosidl_generator_c\n'}
+[45.858747] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyorbelt_msgs/msg/detail/dds_fastrtps/conveyor_belt_state__type_support.cpp.o\x1b[0m\n'}
+[45.859428] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyorbelt_msgs/srv/detail/dds_fastrtps/conveyor_belt_control__type_support.cpp.o\x1b[0m\n'}
+[45.876280] (-) TimerEvent: {}
+[45.976642] (-) TimerEvent: {}
+[46.076972] (-) TimerEvent: {}
+[46.177268] (-) TimerEvent: {}
+[46.277555] (-) TimerEvent: {}
+[46.377883] (-) TimerEvent: {}
+[46.423481] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[46.478106] (-) TimerEvent: {}
+[46.517998] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[46.537548] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[46.578762] (-) TimerEvent: {}
+[46.674595] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyorbelt_msgs/msg/conveyor_belt_state__type_support.cpp.o\x1b[0m\n'}
+[46.676181] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyorbelt_msgs/srv/conveyor_belt_control__type_support.cpp.o\x1b[0m\n'}
+[46.678872] (-) TimerEvent: {}
+[46.706774] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support_c.cpp.o\x1b[0m\n'}
+[46.707053] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support_c.cpp.o\x1b[0m\n'}
+[46.711846] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 43%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[46.712473] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.cpp.o\x1b[0m\n'}
+[46.719806] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.cpp.o\x1b[0m\n'}
+[46.782949] (-) TimerEvent: {}
+[46.877219] (ur5) JobEnded: {'identifier': 'ur5', 'rc': 0}
+[46.883054] (-) TimerEvent: {}
+[47.001697] (-) TimerEvent: {}
+[47.110718] (-) TimerEvent: {}
+[47.215025] (-) TimerEvent: {}
+[47.315377] (-) TimerEvent: {}
+[48.528750] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[48.529042] (-) TimerEvent: {}
+[48.629331] (-) TimerEvent: {}
+[48.729611] (-) TimerEvent: {}
+[48.829907] (-) TimerEvent: {}
+[48.930237] (-) TimerEvent: {}
+[49.030673] (-) TimerEvent: {}
+[49.131311] (-) TimerEvent: {}
+[49.231873] (-) TimerEvent: {}
+[49.332349] (-) TimerEvent: {}
+[49.432706] (-) TimerEvent: {}
+[49.533131] (-) TimerEvent: {}
+[49.544801] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[49.547612] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[49.633255] (-) TimerEvent: {}
+[49.733694] (-) TimerEvent: {}
+[49.833989] (-) TimerEvent: {}
+[49.934282] (-) TimerEvent: {}
+[50.034617] (-) TimerEvent: {}
+[50.134929] (-) TimerEvent: {}
+[50.235199] (-) TimerEvent: {}
+[50.335478] (-) TimerEvent: {}
+[50.435810] (-) TimerEvent: {}
+[50.536127] (-) TimerEvent: {}
+[50.636457] (-) TimerEvent: {}
+[50.736785] (-) TimerEvent: {}
+[50.837086] (-) TimerEvent: {}
+[50.937361] (-) TimerEvent: {}
+[51.037683] (-) TimerEvent: {}
+[51.137967] (-) TimerEvent: {}
+[51.238304] (-) TimerEvent: {}
+[51.338644] (-) TimerEvent: {}
+[51.438993] (-) TimerEvent: {}
+[51.539341] (-) TimerEvent: {}
+[51.639679] (-) TimerEvent: {}
+[51.739968] (-) TimerEvent: {}
+[51.814766] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 58%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c\n'}
+[51.823909] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyorbelt_msgs/msg/conveyor_belt_state__type_support.cpp.o\x1b[0m\n'}
+[51.825590] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyorbelt_msgs/srv/conveyor_belt_control__type_support.cpp.o\x1b[0m\n'}
+[51.840866] (-) TimerEvent: {}
+[51.941251] (-) TimerEvent: {}
+[52.041558] (-) TimerEvent: {}
+[52.141870] (-) TimerEvent: {}
+[52.242232] (-) TimerEvent: {}
+[52.342546] (-) TimerEvent: {}
+[52.442940] (-) TimerEvent: {}
+[52.543459] (-) TimerEvent: {}
+[53.082844] (-) TimerEvent: {}
+[53.183151] (-) TimerEvent: {}
+[53.283440] (-) TimerEvent: {}
+[53.383679] (-) TimerEvent: {}
+[53.483950] (-) TimerEvent: {}
+[53.584235] (-) TimerEvent: {}
+[53.684533] (-) TimerEvent: {}
+[53.784838] (-) TimerEvent: {}
+[53.885164] (-) TimerEvent: {}
+[53.985458] (-) TimerEvent: {}
+[54.040926] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.c.o\x1b[0m\n'}
+[54.041167] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.c.o\x1b[0m\n'}
+[54.046646] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[54.085560] (-) TimerEvent: {}
+[54.185897] (-) TimerEvent: {}
+[54.286222] (-) TimerEvent: {}
+[54.386532] (-) TimerEvent: {}
+[54.486842] (-) TimerEvent: {}
+[54.587144] (-) TimerEvent: {}
+[54.687419] (-) TimerEvent: {}
+[54.787733] (-) TimerEvent: {}
+[54.888055] (-) TimerEvent: {}
+[54.988342] (-) TimerEvent: {}
+[55.088718] (-) TimerEvent: {}
+[55.189245] (-) TimerEvent: {}
+[55.289686] (-) TimerEvent: {}
+[55.319563] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[55.370870] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_cpp\n'}
+[55.371071] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_cpp\n'}
+[55.389788] (-) TimerEvent: {}
+[55.449265] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_c\n'}
+[55.449514] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c\n'}
+[55.489883] (-) TimerEvent: {}
+[55.590174] (-) TimerEvent: {}
+[55.690472] (-) TimerEvent: {}
+[55.790801] (-) TimerEvent: {}
+[55.891140] (-) TimerEvent: {}
+[55.991452] (-) TimerEvent: {}
+[56.091673] (-) TimerEvent: {}
+[56.191942] (-) TimerEvent: {}
+[56.292305] (-) TimerEvent: {}
+[56.383328] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 74%] Built target conveyorbelt_msgs\n'}
+[56.392410] (-) TimerEvent: {}
+[56.410002] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 76%] Built target conveyorbelt_msgs__py\n'}
+[56.492554] (-) TimerEvent: {}
+[56.515353] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_py.dir/rosidl_generator_py/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c.o\x1b[0m\n'}
+[56.515665] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_py.dir/rosidl_generator_py/conveyorbelt_msgs/msg/_conveyor_belt_state_s.c.o\x1b[0m\n'}
+[56.592668] (-) TimerEvent: {}
+[56.693038] (-) TimerEvent: {}
+[56.793439] (-) TimerEvent: {}
+[56.893714] (-) TimerEvent: {}
+[56.993996] (-) TimerEvent: {}
+[57.094372] (-) TimerEvent: {}
+[57.194896] (-) TimerEvent: {}
+[57.295194] (-) TimerEvent: {}
+[57.395481] (-) TimerEvent: {}
+[57.495769] (-) TimerEvent: {}
+[57.596036] (-) TimerEvent: {}
+[57.696352] (-) TimerEvent: {}
+[57.796676] (-) TimerEvent: {}
+[57.883396] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/libconveyorbelt_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[57.896800] (-) TimerEvent: {}
+[57.961403] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 84%] Built target conveyorbelt_msgs__rosidl_generator_py\n'}
+[57.996933] (-) TimerEvent: {}
+[58.097646] (-) TimerEvent: {}
+[58.882585] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[58.882844] (-) TimerEvent: {}
+[58.882970] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[58.982968] (-) TimerEvent: {}
+[58.988956] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[58.991492] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[59.083074] (-) TimerEvent: {}
+[59.108951] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[59.183161] (-) TimerEvent: {}
+[59.283442] (-) TimerEvent: {}
+[59.383733] (-) TimerEvent: {}
+[59.484013] (-) TimerEvent: {}
+[59.584289] (-) TimerEvent: {}
+[59.684559] (-) TimerEvent: {}
+[59.784874] (-) TimerEvent: {}
+[59.885159] (-) TimerEvent: {}
+[59.985426] (-) TimerEvent: {}
+[60.085684] (-) TimerEvent: {}
+[60.186074] (-) TimerEvent: {}
+[60.286638] (-) TimerEvent: {}
+[60.386931] (-) TimerEvent: {}
+[60.487269] (-) TimerEvent: {}
+[60.587546] (-) TimerEvent: {}
+[60.687889] (-) TimerEvent: {}
+[60.788208] (-) TimerEvent: {}
+[60.888719] (-) TimerEvent: {}
+[60.989243] (-) TimerEvent: {}
+[61.078527] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 97%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[61.078802] (conveyorbelt_msgs) StdoutLine: {'line': b'[ 97%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[61.088864] (conveyorbelt_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[61.089314] (-) TimerEvent: {}
+[61.189597] (-) TimerEvent: {}
+[61.289263] (conveyorbelt_msgs) StdoutLine: {'line': b'[100%] Built target conveyorbelt_msgs__rosidl_typesupport_c__pyext\n'}
+[61.289654] (-) TimerEvent: {}
+[61.389920] (-) TimerEvent: {}
+[61.490232] (-) TimerEvent: {}
+[61.590544] (-) TimerEvent: {}
+[61.690864] (-) TimerEvent: {}
+[61.791198] (-) TimerEvent: {}
+[61.891491] (-) TimerEvent: {}
+[61.991849] (-) TimerEvent: {}
+[62.092216] (-) TimerEvent: {}
+[62.109966] (conveyorbelt_msgs) CommandEnded: {'returncode': 0}
+[63.305861] (-) TimerEvent: {}
+[63.306057] (conveyorbelt_msgs) JobProgress: {'identifier': 'conveyorbelt_msgs', 'progress': 'install'}
+[63.306096] (conveyorbelt_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs'], 'cwd': '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'srikar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('HOME', '/home/srikar'), ('OLDPWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1820'), ('SYSTEMD_EXEC_PID', '2129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/srikar/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87777'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srikar'), ('JOURNAL_STREAM', '8:14864'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'srikar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/srikar/miniconda3/bin:/home/srikar/.local/bin:/home/srikar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/geckodriver'), ('SESSION_MANAGER', 'local/srikar-Tesla-Vostro-3580:@/tmp/.ICE-unix/2099,unix/srikar-Tesla-Vostro-3580:/tmp/.ICE-unix/2099'), ('INVOCATION_ID', '882071b6c38143aabc98060a756cc347'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78fa7cda-c47e-4b44-bd7e-bbb25c7f357c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/conveyorbelt_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/srikar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[63.306654] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[63.306821] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg\n'}
+[63.306969] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.msg\n'}
+[63.307085] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv\n'}
+[63.307192] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.srv\n'}
+[63.307300] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/ament_index/resource_index/rosidl_interfaces/conveyorbelt_msgs\n'}
+[63.307412] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs\n'}
+[63.307528] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv\n'}
+[63.307638] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/conveyor_belt_control.h\n'}
+[63.307750] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail\n'}
+[63.308007] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.h\n'}
+[63.308117] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.h\n'}
+[63.308235] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.h\n'}
+[63.308371] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.c\n'}
+[63.308473] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg\n'}
+[63.308538] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/conveyor_belt_state.h\n'}
+[63.308603] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail\n'}
+[63.308712] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.h\n'}
+[63.308784] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.c\n'}
+[63.308873] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.h\n'}
+[63.308933] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.h\n'}
+[63.308992] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[63.309055] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/library_path.sh\n'}
+[63.309188] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/library_path.dsv\n'}
+[63.309263] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_c.so\n'}
+[63.309335] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_c.so" to ""\n'}
+[63.309420] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs\n'}
+[63.309492] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv\n'}
+[63.309577] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail\n'}
+[63.309660] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_c.h\n'}
+[63.309730] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg\n'}
+[63.309790] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[63.309850] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail\n'}
+[63.309908] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_c.h\n'}
+[63.309968] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[63.310028] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[63.310088] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs\n'}
+[63.310147] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv\n'}
+[63.310207] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail\n'}
+[63.310270] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_c.h\n'}
+[63.310332] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.c\n'}
+[63.310391] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg\n'}
+[63.310451] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[63.310510] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail\n'}
+[63.310570] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_introspection_c.h\n'}
+[63.310637] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.c\n'}
+[63.310705] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so\n'}
+[63.310769] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[63.310830] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_c.so\n'}
+[63.310890] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_c.so" to ""\n'}
+[63.310959] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs\n'}
+[63.311022] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv\n'}
+[63.311081] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail\n'}
+[63.311140] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.hpp\n'}
+[63.311200] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__builder.hpp\n'}
+[63.311259] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__traits.hpp\n'}
+[63.311319] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.hpp\n'}
+[63.311378] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/conveyor_belt_control.hpp\n'}
+[63.311437] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg\n'}
+[63.311496] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[63.311570] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail\n'}
+[63.311644] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.hpp\n'}
+[63.311713] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.hpp\n'}
+[63.311775] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__traits.hpp\n'}
+[63.311842] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__builder.hpp\n'}
+[63.311905] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/conveyor_belt_state.hpp\n'}
+[63.311967] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs\n'}
+[63.312033] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv\n'}
+[63.312119] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail\n'}
+[63.312206] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[63.312340] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/dds_fastrtps\n'}
+[63.312439] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg\n'}
+[63.312536] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail\n'}
+[63.312749] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[63.312834] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/dds_fastrtps\n'}
+[63.312910] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[63.312985] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[63.313060] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[63.313142] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs\n'}
+[63.313237] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv\n'}
+[63.313339] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail\n'}
+[63.313407] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[63.313476] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.cpp\n'}
+[63.313541] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg\n'}
+[63.313602] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail\n'}
+[63.313681] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.cpp\n'}
+[63.313746] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[63.313809] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[63.313871] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[63.313932] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_cpp.so\n'}
+[63.313994] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[63.314057] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/pythonpath.sh\n'}
+[63.314118] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/pythonpath.dsv\n'}
+[63.314179] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info\n'}
+[63.314242] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[63.314304] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[63.405996] (-) TimerEvent: {}
+[63.506315] (-) TimerEvent: {}
+[63.606704] (-) TimerEvent: {}
+[63.707045] (-) TimerEvent: {}
+[63.807358] (-) TimerEvent: {}
+[63.907709] (-) TimerEvent: {}
+[64.008117] (-) TimerEvent: {}
+[64.108438] (-) TimerEvent: {}
+[64.208743] (-) TimerEvent: {}
+[64.309033] (-) TimerEvent: {}
+[64.409331] (-) TimerEvent: {}
+[64.509655] (-) TimerEvent: {}
+[64.609964] (-) TimerEvent: {}
+[64.710322] (-) TimerEvent: {}
+[64.810669] (-) TimerEvent: {}
+[64.910952] (-) TimerEvent: {}
+[65.011248] (-) TimerEvent: {}
+[65.111551] (-) TimerEvent: {}
+[65.147670] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[65.147909] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[65.148043] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs\n'}
+[65.148163] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/libconveyorbelt_msgs__rosidl_generator_py.so\n'}
+[65.148300] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[65.148421] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[65.148539] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[65.148660] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[65.148830] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[65.148990] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv\n'}
+[65.149147] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c\n'}
+[65.149268] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control.py\n'}
+[65.149372] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/__init__.py\n'}
+[65.149475] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/__init__.py\n'}
+[65.149577] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg\n'}
+[65.149685] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state.py\n'}
+[65.149772] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state_s.c\n'}
+[65.149864] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/__init__.py\n'}
+[65.149964] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[65.182325] (conveyorbelt_msgs) StdoutLine: {'line': b"Listing '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs'...\n"}
+[65.182582] (conveyorbelt_msgs) StdoutLine: {'line': b"Compiling '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/__init__.py'...\n"}
+[65.182720] (conveyorbelt_msgs) StdoutLine: {'line': b"Listing '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg'...\n"}
+[65.182870] (conveyorbelt_msgs) StdoutLine: {'line': b"Listing '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv'...\n"}
+[65.187201] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[65.187448] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[65.187608] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[65.187938] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[65.188101] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[65.188390] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[65.188535] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_py.so\n'}
+[65.188857] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_py.so" to ""\n'}
+[65.189023] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.idl\n'}
+[65.189161] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.idl\n'}
+[65.189281] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.msg\n'}
+[65.189391] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.srv\n'}
+[65.189483] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl_Request.msg\n'}
+[65.189606] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl_Response.msg\n'}
+[65.189730] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/ament_index/resource_index/package_run_dependencies/conveyorbelt_msgs\n'}
+[65.189838] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/ament_index/resource_index/parent_prefix_path/conveyorbelt_msgs\n'}
+[65.189936] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/ament_prefix_path.sh\n'}
+[65.190057] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/ament_prefix_path.dsv\n'}
+[65.190184] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/path.sh\n'}
+[65.190291] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/path.dsv\n'}
+[65.190385] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.bash\n'}
+[65.190499] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.sh\n'}
+[65.190652] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.zsh\n'}
+[65.190777] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.dsv\n'}
+[65.190891] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv\n'}
+[65.191006] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/ament_index/resource_index/packages/conveyorbelt_msgs\n'}
+[65.191108] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cExport.cmake\n'}
+[65.191224] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[65.191328] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[65.191445] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[65.191547] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[65.191690] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[65.191820] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cExport.cmake\n'}
+[65.191947] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[65.192068] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cppExport.cmake\n'}
+[65.192155] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[65.192240] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[65.192327] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[65.192437] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[65.192523] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[65.192603] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[65.192683] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_pyExport.cmake\n'}
+[65.192747] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[65.192809] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[65.192879] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[65.192973] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[65.193035] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[65.193097] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[65.193159] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[65.193223] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[65.193285] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgsConfig.cmake\n'}
+[65.193346] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgsConfig-version.cmake\n'}
+[65.193564] (conveyorbelt_msgs) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.xml\n'}
+[65.194179] (conveyorbelt_msgs) CommandEnded: {'returncode': 0}
+[65.211670] (-) TimerEvent: {}
+[65.311988] (-) TimerEvent: {}
+[65.412319] (-) TimerEvent: {}
+[65.512660] (-) TimerEvent: {}
+[65.612982] (-) TimerEvent: {}
+[65.713257] (-) TimerEvent: {}
+[65.813588] (-) TimerEvent: {}
+[65.913856] (-) TimerEvent: {}
+[66.014163] (-) TimerEvent: {}
+[66.053588] (conveyorbelt_msgs) JobEnded: {'identifier': 'conveyorbelt_msgs', 'rc': 0}
+[66.055055] (ros2_conveyorbelt) JobStarted: {'identifier': 'ros2_conveyorbelt'}
+[66.062333] (ros2_conveyorbelt) JobProgress: {'identifier': 'ros2_conveyorbelt', 'progress': 'cmake'}
+[66.063259] (ros2_conveyorbelt) JobProgress: {'identifier': 'ros2_conveyorbelt', 'progress': 'build'}
+[66.063803] (ros2_conveyorbelt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt', '--', '-j8', '-l8'], 'cwd': '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'srikar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/'), ('HOME', '/home/srikar'), ('OLDPWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1820'), ('SYSTEMD_EXEC_PID', '2129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/srikar/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87777'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srikar'), ('JOURNAL_STREAM', '8:14864'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'srikar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/srikar/miniconda3/bin:/home/srikar/.local/bin:/home/srikar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/geckodriver'), ('SESSION_MANAGER', 'local/srikar-Tesla-Vostro-3580:@/tmp/.ICE-unix/2099,unix/srikar-Tesla-Vostro-3580:/tmp/.ICE-unix/2099'), ('INVOCATION_ID', '882071b6c38143aabc98060a756cc347'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78fa7cda-c47e-4b44-bd7e-bbb25c7f357c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/srikar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs:/opt/ros/humble')]), 'shell': False}
+[66.084374] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[66.114266] (-) TimerEvent: {}
+[66.214577] (-) TimerEvent: {}
+[66.314896] (-) TimerEvent: {}
+[66.415239] (-) TimerEvent: {}
+[66.515518] (-) TimerEvent: {}
+[66.528975] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[66.615671] (-) TimerEvent: {}
+[66.715939] (-) TimerEvent: {}
+[66.816359] (-) TimerEvent: {}
+[66.916879] (-) TimerEvent: {}
+[67.017280] (-) TimerEvent: {}
+[67.117565] (-) TimerEvent: {}
+[67.217857] (-) TimerEvent: {}
+[67.318131] (-) TimerEvent: {}
+[67.418502] (-) TimerEvent: {}
+[67.518849] (-) TimerEvent: {}
+[67.619200] (-) TimerEvent: {}
+[67.719531] (-) TimerEvent: {}
+[67.793046] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[67.819658] (-) TimerEvent: {}
+[67.870959] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[67.876818] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[67.887197] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[67.903324] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[67.919880] (-) TimerEvent: {}
+[67.928335] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[67.982277] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[67.985744] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[68.014369] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[68.020006] (-) TimerEvent: {}
+[68.120276] (-) TimerEvent: {}
+[68.120548] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[68.159538] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[68.161672] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[68.169899] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[68.172617] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[68.178801] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[68.179091] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[68.190104] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[68.190408] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[68.190585] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[68.190734] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[68.190880] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[68.190984] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[68.191084] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[68.191181] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[68.191285] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[68.191386] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[68.191487] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[68.191586] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[68.220418] (-) TimerEvent: {}
+[68.320755] (-) TimerEvent: {}
+[68.373743] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[68.376253] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[68.376808] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[68.395082] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[68.407478] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[68.412039] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[68.420865] (-) TimerEvent: {}
+[68.422017] (ros2_conveyorbelt) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[68.454582] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[68.463763] (ros2_conveyorbelt) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[68.486127] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[68.486589] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[68.506584] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[68.511817] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[68.520957] (-) TimerEvent: {}
+[68.521563] (ros2_conveyorbelt) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[68.546042] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[68.547109] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[68.547795] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[68.548388] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[68.548652] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[68.562757] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[68.563549] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[68.564184] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[68.564611] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[68.566747] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[68.567322] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[68.607226] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[68.616986] (ros2_conveyorbelt) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[68.621071] (-) TimerEvent: {}
+[68.646420] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[68.658292] (ros2_conveyorbelt) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[68.682006] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[68.682634] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[68.683306] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[68.686178] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[68.688696] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[68.721172] (-) TimerEvent: {}
+[68.821529] (-) TimerEvent: {}
+[68.921819] (-) TimerEvent: {}
+[69.022102] (-) TimerEvent: {}
+[69.122383] (-) TimerEvent: {}
+[69.222736] (-) TimerEvent: {}
+[69.323074] (-) TimerEvent: {}
+[69.423390] (-) TimerEvent: {}
+[69.523731] (-) TimerEvent: {}
+[69.624062] (-) TimerEvent: {}
+[69.703553] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Found conveyorbelt_msgs: 0.0.0 (/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake)\n'}
+[69.724184] (-) TimerEvent: {}
+[69.824489] (-) TimerEvent: {}
+[69.924777] (-) TimerEvent: {}
+[70.025104] (-) TimerEvent: {}
+[70.125390] (-) TimerEvent: {}
+[70.225688] (-) TimerEvent: {}
+[70.325992] (-) TimerEvent: {}
+[70.426366] (-) TimerEvent: {}
+[70.526679] (-) TimerEvent: {}
+[70.627028] (-) TimerEvent: {}
+[70.727333] (-) TimerEvent: {}
+[70.827666] (-) TimerEvent: {}
+[70.928068] (-) TimerEvent: {}
+[71.028448] (-) TimerEvent: {}
+[71.128784] (-) TimerEvent: {}
+[71.229172] (-) TimerEvent: {}
+[71.329539] (-) TimerEvent: {}
+[71.429880] (-) TimerEvent: {}
+[71.530223] (-) TimerEvent: {}
+[71.563527] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[71.566202] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[71.568144] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ros2_conveyorbelt/include\n'}
+[71.568426] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[71.570534] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[71.570836] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[71.571922] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[71.572949] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[71.573780] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[71.575513] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[71.575816] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[71.576413] (ros2_conveyorbelt) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[71.630363] (-) TimerEvent: {}
+[71.730719] (-) TimerEvent: {}
+[71.831135] (-) TimerEvent: {}
+[71.931529] (-) TimerEvent: {}
+[71.979465] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Configuring done\n'}
+[72.031671] (-) TimerEvent: {}
+[72.132061] (-) TimerEvent: {}
+[72.232439] (-) TimerEvent: {}
+[72.332779] (-) TimerEvent: {}
+[72.433139] (-) TimerEvent: {}
+[72.533531] (-) TimerEvent: {}
+[72.633909] (-) TimerEvent: {}
+[72.734253] (-) TimerEvent: {}
+[72.834599] (-) TimerEvent: {}
+[72.934949] (-) TimerEvent: {}
+[73.035385] (-) TimerEvent: {}
+[73.135728] (-) TimerEvent: {}
+[73.236128] (-) TimerEvent: {}
+[73.336527] (-) TimerEvent: {}
+[73.879324] (-) TimerEvent: {}
+[73.979700] (-) TimerEvent: {}
+[74.080161] (-) TimerEvent: {}
+[74.180611] (-) TimerEvent: {}
+[74.281046] (-) TimerEvent: {}
+[74.381480] (-) TimerEvent: {}
+[74.481868] (-) TimerEvent: {}
+[74.582298] (-) TimerEvent: {}
+[74.682758] (-) TimerEvent: {}
+[74.783191] (-) TimerEvent: {}
+[74.883612] (-) TimerEvent: {}
+[74.984053] (-) TimerEvent: {}
+[75.084482] (-) TimerEvent: {}
+[75.184875] (-) TimerEvent: {}
+[75.285311] (-) TimerEvent: {}
+[75.385747] (-) TimerEvent: {}
+[75.486190] (-) TimerEvent: {}
+[75.586590] (-) TimerEvent: {}
+[75.686979] (-) TimerEvent: {}
+[75.787330] (-) TimerEvent: {}
+[75.887697] (-) TimerEvent: {}
+[75.988116] (-) TimerEvent: {}
+[76.088500] (-) TimerEvent: {}
+[76.188884] (-) TimerEvent: {}
+[76.289295] (-) TimerEvent: {}
+[76.389693] (-) TimerEvent: {}
+[76.490060] (-) TimerEvent: {}
+[76.590480] (-) TimerEvent: {}
+[76.690851] (-) TimerEvent: {}
+[76.791249] (-) TimerEvent: {}
+[76.891608] (-) TimerEvent: {}
+[76.992041] (-) TimerEvent: {}
+[77.092451] (-) TimerEvent: {}
+[77.192823] (-) TimerEvent: {}
+[77.293216] (-) TimerEvent: {}
+[77.393565] (-) TimerEvent: {}
+[77.493991] (-) TimerEvent: {}
+[77.594350] (-) TimerEvent: {}
+[77.694709] (-) TimerEvent: {}
+[77.795097] (-) TimerEvent: {}
+[77.895458] (-) TimerEvent: {}
+[77.995823] (-) TimerEvent: {}
+[78.096223] (-) TimerEvent: {}
+[78.196611] (-) TimerEvent: {}
+[78.297025] (-) TimerEvent: {}
+[78.397373] (-) TimerEvent: {}
+[78.694924] (-) TimerEvent: {}
+[78.795328] (-) TimerEvent: {}
+[78.895733] (-) TimerEvent: {}
+[78.996128] (-) TimerEvent: {}
+[79.096475] (-) TimerEvent: {}
+[79.196904] (-) TimerEvent: {}
+[79.297297] (-) TimerEvent: {}
+[79.397703] (-) TimerEvent: {}
+[79.498088] (-) TimerEvent: {}
+[79.598485] (-) TimerEvent: {}
+[79.698894] (-) TimerEvent: {}
+[79.799312] (-) TimerEvent: {}
+[79.899728] (-) TimerEvent: {}
+[80.000086] (-) TimerEvent: {}
+[80.100500] (-) TimerEvent: {}
+[80.200889] (-) TimerEvent: {}
+[80.301279] (-) TimerEvent: {}
+[80.401715] (-) TimerEvent: {}
+[80.502129] (-) TimerEvent: {}
+[80.602529] (-) TimerEvent: {}
+[80.702911] (-) TimerEvent: {}
+[80.803274] (-) TimerEvent: {}
+[80.903679] (-) TimerEvent: {}
+[81.004028] (-) TimerEvent: {}
+[81.104451] (-) TimerEvent: {}
+[81.204859] (-) TimerEvent: {}
+[81.305275] (-) TimerEvent: {}
+[81.405700] (-) TimerEvent: {}
+[81.506136] (-) TimerEvent: {}
+[81.606563] (-) TimerEvent: {}
+[81.707030] (-) TimerEvent: {}
+[81.807485] (-) TimerEvent: {}
+[81.907901] (-) TimerEvent: {}
+[82.008345] (-) TimerEvent: {}
+[82.108738] (-) TimerEvent: {}
+[82.209141] (-) TimerEvent: {}
+[82.309547] (-) TimerEvent: {}
+[82.410025] (-) TimerEvent: {}
+[82.510466] (-) TimerEvent: {}
+[82.610880] (-) TimerEvent: {}
+[82.711335] (-) TimerEvent: {}
+[82.811751] (-) TimerEvent: {}
+[82.912203] (-) TimerEvent: {}
+[83.012649] (-) TimerEvent: {}
+[83.113094] (-) TimerEvent: {}
+[83.213494] (-) TimerEvent: {}
+[83.313899] (-) TimerEvent: {}
+[83.414298] (-) TimerEvent: {}
+[83.514678] (-) TimerEvent: {}
+[83.615032] (-) TimerEvent: {}
+[84.638200] (-) TimerEvent: {}
+[84.738647] (-) TimerEvent: {}
+[84.839007] (-) TimerEvent: {}
+[84.939363] (-) TimerEvent: {}
+[85.039748] (-) TimerEvent: {}
+[85.140106] (-) TimerEvent: {}
+[85.240512] (-) TimerEvent: {}
+[85.340914] (-) TimerEvent: {}
+[85.441345] (-) TimerEvent: {}
+[85.541765] (-) TimerEvent: {}
+[85.642158] (-) TimerEvent: {}
+[85.742568] (-) TimerEvent: {}
+[85.842982] (-) TimerEvent: {}
+[85.943336] (-) TimerEvent: {}
+[86.043690] (-) TimerEvent: {}
+[86.144040] (-) TimerEvent: {}
+[86.244395] (-) TimerEvent: {}
+[86.344852] (-) TimerEvent: {}
+[86.445303] (-) TimerEvent: {}
+[86.545769] (-) TimerEvent: {}
+[86.646189] (-) TimerEvent: {}
+[86.746700] (-) TimerEvent: {}
+[86.794113] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Generating done\n'}
+[86.799779] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Build files have been written to: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt\n'}
+[86.846827] (-) TimerEvent: {}
+[86.947254] (-) TimerEvent: {}
+[87.047615] (-) TimerEvent: {}
+[87.148033] (-) TimerEvent: {}
+[87.196293] (ros2_conveyorbelt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_conveyorbelt_plugin.dir/src/ros2_conveyorbelt_plugin.cpp.o\x1b[0m\n'}
+[87.248192] (-) TimerEvent: {}
+[87.348576] (-) TimerEvent: {}
+[87.448990] (-) TimerEvent: {}
+[87.549377] (-) TimerEvent: {}
+[87.649739] (-) TimerEvent: {}
+[87.750137] (-) TimerEvent: {}
+[87.850536] (-) TimerEvent: {}
+[87.950910] (-) TimerEvent: {}
+[88.051320] (-) TimerEvent: {}
+[88.151692] (-) TimerEvent: {}
+[88.252005] (-) TimerEvent: {}
+[88.352413] (-) TimerEvent: {}
+[88.452822] (-) TimerEvent: {}
+[88.553240] (-) TimerEvent: {}
+[88.653674] (-) TimerEvent: {}
+[88.754095] (-) TimerEvent: {}
+[88.854496] (-) TimerEvent: {}
+[88.954958] (-) TimerEvent: {}
+[89.055377] (-) TimerEvent: {}
+[89.155719] (-) TimerEvent: {}
+[89.256159] (-) TimerEvent: {}
+[89.356529] (-) TimerEvent: {}
+[89.456942] (-) TimerEvent: {}
+[89.557337] (-) TimerEvent: {}
+[90.464112] (-) TimerEvent: {}
+[90.564571] (-) TimerEvent: {}
+[90.665022] (-) TimerEvent: {}
+[90.765420] (-) TimerEvent: {}
+[90.865837] (-) TimerEvent: {}
+[90.966233] (-) TimerEvent: {}
+[91.066715] (-) TimerEvent: {}
+[91.167175] (-) TimerEvent: {}
+[91.267563] (-) TimerEvent: {}
+[91.367906] (-) TimerEvent: {}
+[91.468294] (-) TimerEvent: {}
+[91.568704] (-) TimerEvent: {}
+[91.669136] (-) TimerEvent: {}
+[91.769564] (-) TimerEvent: {}
+[91.869968] (-) TimerEvent: {}
+[91.970358] (-) TimerEvent: {}
+[92.070771] (-) TimerEvent: {}
+[92.171204] (-) TimerEvent: {}
+[92.271663] (-) TimerEvent: {}
+[92.372106] (-) TimerEvent: {}
+[92.472568] (-) TimerEvent: {}
+[92.572989] (-) TimerEvent: {}
+[92.673412] (-) TimerEvent: {}
+[92.773909] (-) TimerEvent: {}
+[92.874276] (-) TimerEvent: {}
+[92.974669] (-) TimerEvent: {}
+[93.075056] (-) TimerEvent: {}
+[93.175400] (-) TimerEvent: {}
+[93.275731] (-) TimerEvent: {}
+[93.376075] (-) TimerEvent: {}
+[93.476499] (-) TimerEvent: {}
+[93.576881] (-) TimerEvent: {}
+[93.677263] (-) TimerEvent: {}
+[93.777644] (-) TimerEvent: {}
+[93.878019] (-) TimerEvent: {}
+[93.978395] (-) TimerEvent: {}
+[94.078733] (-) TimerEvent: {}
+[94.179110] (-) TimerEvent: {}
+[94.279455] (-) TimerEvent: {}
+[94.379814] (-) TimerEvent: {}
+[94.480204] (-) TimerEvent: {}
+[94.580594] (-) TimerEvent: {}
+[95.406427] (-) TimerEvent: {}
+[95.506931] (-) TimerEvent: {}
+[95.607377] (-) TimerEvent: {}
+[95.707853] (-) TimerEvent: {}
+[95.808259] (-) TimerEvent: {}
+[95.908711] (-) TimerEvent: {}
+[96.009150] (-) TimerEvent: {}
+[96.109588] (-) TimerEvent: {}
+[96.210165] (-) TimerEvent: {}
+[96.310566] (-) TimerEvent: {}
+[96.410992] (-) TimerEvent: {}
+[96.511378] (-) TimerEvent: {}
+[96.611797] (-) TimerEvent: {}
+[96.712196] (-) TimerEvent: {}
+[96.812611] (-) TimerEvent: {}
+[96.913035] (-) TimerEvent: {}
+[97.013457] (-) TimerEvent: {}
+[97.113883] (-) TimerEvent: {}
+[97.214299] (-) TimerEvent: {}
+[97.314683] (-) TimerEvent: {}
+[97.415075] (-) TimerEvent: {}
+[97.515470] (-) TimerEvent: {}
+[97.615890] (-) TimerEvent: {}
+[97.716292] (-) TimerEvent: {}
+[97.816707] (-) TimerEvent: {}
+[97.917099] (-) TimerEvent: {}
+[98.017495] (-) TimerEvent: {}
+[98.117907] (-) TimerEvent: {}
+[98.218310] (-) TimerEvent: {}
+[98.318711] (-) TimerEvent: {}
+[98.419105] (-) TimerEvent: {}
+[98.519526] (-) TimerEvent: {}
+[98.619945] (-) TimerEvent: {}
+[98.720367] (-) TimerEvent: {}
+[98.820765] (-) TimerEvent: {}
+[98.921164] (-) TimerEvent: {}
+[99.021553] (-) TimerEvent: {}
+[99.121970] (-) TimerEvent: {}
+[99.222376] (-) TimerEvent: {}
+[99.322785] (-) TimerEvent: {}
+[99.423190] (-) TimerEvent: {}
+[99.523629] (-) TimerEvent: {}
+[99.624020] (-) TimerEvent: {}
+[100.458576] (-) TimerEvent: {}
+[100.559060] (-) TimerEvent: {}
+[100.659500] (-) TimerEvent: {}
+[100.760005] (-) TimerEvent: {}
+[100.860406] (-) TimerEvent: {}
+[100.960823] (-) TimerEvent: {}
+[101.061254] (-) TimerEvent: {}
+[101.161682] (-) TimerEvent: {}
+[101.262034] (-) TimerEvent: {}
+[101.362455] (-) TimerEvent: {}
+[101.462967] (-) TimerEvent: {}
+[101.563473] (-) TimerEvent: {}
+[101.663844] (-) TimerEvent: {}
+[101.764190] (-) TimerEvent: {}
+[101.864549] (-) TimerEvent: {}
+[101.964973] (-) TimerEvent: {}
+[102.065339] (-) TimerEvent: {}
+[102.165786] (-) TimerEvent: {}
+[102.266123] (-) TimerEvent: {}
+[102.366490] (-) TimerEvent: {}
+[102.466904] (-) TimerEvent: {}
+[102.567302] (-) TimerEvent: {}
+[102.667701] (-) TimerEvent: {}
+[102.768092] (-) TimerEvent: {}
+[102.868501] (-) TimerEvent: {}
+[102.968913] (-) TimerEvent: {}
+[103.069279] (-) TimerEvent: {}
+[103.169657] (-) TimerEvent: {}
+[103.270106] (-) TimerEvent: {}
+[103.370717] (-) TimerEvent: {}
+[103.471167] (-) TimerEvent: {}
+[103.571580] (-) TimerEvent: {}
+[103.671964] (-) TimerEvent: {}
+[103.772412] (-) TimerEvent: {}
+[103.872829] (-) TimerEvent: {}
+[103.973178] (-) TimerEvent: {}
+[104.073560] (-) TimerEvent: {}
+[104.173957] (-) TimerEvent: {}
+[104.274353] (-) TimerEvent: {}
+[104.374745] (-) TimerEvent: {}
+[104.475137] (-) TimerEvent: {}
+[104.575533] (-) TimerEvent: {}
+[104.675907] (-) TimerEvent: {}
+[105.425176] (-) TimerEvent: {}
+[105.525563] (-) TimerEvent: {}
+[105.625967] (-) TimerEvent: {}
+[105.726320] (-) TimerEvent: {}
+[105.826747] (-) TimerEvent: {}
+[105.927155] (-) TimerEvent: {}
+[106.027567] (-) TimerEvent: {}
+[106.127974] (-) TimerEvent: {}
+[106.228418] (-) TimerEvent: {}
+[106.328800] (-) TimerEvent: {}
+[106.429324] (-) TimerEvent: {}
+[106.529772] (-) TimerEvent: {}
+[106.630128] (-) TimerEvent: {}
+[106.731712] (-) TimerEvent: {}
+[106.832191] (-) TimerEvent: {}
+[106.932577] (-) TimerEvent: {}
+[107.032962] (-) TimerEvent: {}
+[107.133323] (-) TimerEvent: {}
+[107.233787] (-) TimerEvent: {}
+[107.334163] (-) TimerEvent: {}
+[107.434561] (-) TimerEvent: {}
+[107.535038] (-) TimerEvent: {}
+[107.635409] (-) TimerEvent: {}
+[107.735848] (-) TimerEvent: {}
+[107.836228] (-) TimerEvent: {}
+[107.936612] (-) TimerEvent: {}
+[108.037023] (-) TimerEvent: {}
+[108.137409] (-) TimerEvent: {}
+[108.237746] (-) TimerEvent: {}
+[108.338179] (-) TimerEvent: {}
+[108.438585] (-) TimerEvent: {}
+[108.539021] (-) TimerEvent: {}
+[108.639412] (-) TimerEvent: {}
+[108.739747] (-) TimerEvent: {}
+[108.840118] (-) TimerEvent: {}
+[108.940568] (-) TimerEvent: {}
+[109.040951] (-) TimerEvent: {}
+[109.141292] (-) TimerEvent: {}
+[109.241690] (-) TimerEvent: {}
+[109.342069] (-) TimerEvent: {}
+[109.442450] (-) TimerEvent: {}
+[109.542857] (-) TimerEvent: {}
+[109.643330] (-) TimerEvent: {}
+[109.743770] (-) TimerEvent: {}
+[109.844564] (-) TimerEvent: {}
+[109.944986] (-) TimerEvent: {}
+[110.045377] (-) TimerEvent: {}
+[110.145791] (-) TimerEvent: {}
+[110.246263] (-) TimerEvent: {}
+[110.346661] (-) TimerEvent: {}
+[110.447046] (-) TimerEvent: {}
+[110.547528] (-) TimerEvent: {}
+[110.647971] (-) TimerEvent: {}
+[110.748435] (-) TimerEvent: {}
+[110.848941] (-) TimerEvent: {}
+[110.949288] (-) TimerEvent: {}
+[111.049683] (-) TimerEvent: {}
+[111.150032] (-) TimerEvent: {}
+[111.250446] (-) TimerEvent: {}
+[111.350873] (-) TimerEvent: {}
+[111.451239] (-) TimerEvent: {}
+[111.551609] (-) TimerEvent: {}
+[111.651990] (-) TimerEvent: {}
+[111.752380] (-) TimerEvent: {}
+[111.852736] (-) TimerEvent: {}
+[111.953090] (-) TimerEvent: {}
+[112.053439] (-) TimerEvent: {}
+[112.153824] (-) TimerEvent: {}
+[112.254235] (-) TimerEvent: {}
+[112.354652] (-) TimerEvent: {}
+[112.455049] (-) TimerEvent: {}
+[112.555449] (-) TimerEvent: {}
+[112.655865] (-) TimerEvent: {}
+[112.756319] (-) TimerEvent: {}
+[112.856926] (-) TimerEvent: {}
+[112.957353] (-) TimerEvent: {}
+[113.057742] (-) TimerEvent: {}
+[113.158158] (-) TimerEvent: {}
+[113.258678] (-) TimerEvent: {}
+[113.359138] (-) TimerEvent: {}
+[113.459579] (-) TimerEvent: {}
+[113.559958] (-) TimerEvent: {}
+[113.660333] (-) TimerEvent: {}
+[113.760725] (-) TimerEvent: {}
+[113.861122] (-) TimerEvent: {}
+[113.961502] (-) TimerEvent: {}
+[114.061942] (-) TimerEvent: {}
+[114.162300] (-) TimerEvent: {}
+[114.262703] (-) TimerEvent: {}
+[114.302282] (ros2_conveyorbelt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libros2_conveyorbelt_plugin.so\x1b[0m\n'}
+[114.362819] (-) TimerEvent: {}
+[114.463215] (-) TimerEvent: {}
+[114.563616] (-) TimerEvent: {}
+[114.664003] (-) TimerEvent: {}
+[114.764412] (-) TimerEvent: {}
+[114.864795] (-) TimerEvent: {}
+[114.965147] (-) TimerEvent: {}
+[116.574383] (-) TimerEvent: {}
+[116.674819] (-) TimerEvent: {}
+[116.775432] (-) TimerEvent: {}
+[116.875872] (-) TimerEvent: {}
+[116.976325] (-) TimerEvent: {}
+[117.076764] (-) TimerEvent: {}
+[117.177277] (-) TimerEvent: {}
+[117.277829] (-) TimerEvent: {}
+[117.378244] (-) TimerEvent: {}
+[117.478685] (-) TimerEvent: {}
+[117.579122] (-) TimerEvent: {}
+[117.679463] (-) TimerEvent: {}
+[117.779829] (-) TimerEvent: {}
+[117.880208] (-) TimerEvent: {}
+[117.980647] (-) TimerEvent: {}
+[118.081025] (-) TimerEvent: {}
+[118.181454] (-) TimerEvent: {}
+[118.281810] (-) TimerEvent: {}
+[118.382184] (-) TimerEvent: {}
+[118.482552] (-) TimerEvent: {}
+[118.582936] (-) TimerEvent: {}
+[118.683343] (-) TimerEvent: {}
+[118.783691] (-) TimerEvent: {}
+[118.884024] (-) TimerEvent: {}
+[118.984398] (-) TimerEvent: {}
+[119.084821] (-) TimerEvent: {}
+[119.185185] (-) TimerEvent: {}
+[119.285648] (-) TimerEvent: {}
+[119.386063] (-) TimerEvent: {}
+[119.486411] (-) TimerEvent: {}
+[119.586846] (-) TimerEvent: {}
+[119.687252] (-) TimerEvent: {}
+[119.787639] (-) TimerEvent: {}
+[119.888087] (-) TimerEvent: {}
+[119.988547] (-) TimerEvent: {}
+[120.005240] (ros2_conveyorbelt) StdoutLine: {'line': b'[100%] Built target ros2_conveyorbelt_plugin\n'}
+[120.088690] (-) TimerEvent: {}
+[120.189105] (-) TimerEvent: {}
+[120.289454] (-) TimerEvent: {}
+[120.389914] (-) TimerEvent: {}
+[120.490587] (-) TimerEvent: {}
+[122.245385] (-) TimerEvent: {}
+[122.345891] (-) TimerEvent: {}
+[122.446869] (-) TimerEvent: {}
+[122.547331] (-) TimerEvent: {}
+[122.647860] (-) TimerEvent: {}
+[122.748550] (-) TimerEvent: {}
+[122.849253] (-) TimerEvent: {}
+[122.950308] (-) TimerEvent: {}
+[123.051012] (-) TimerEvent: {}
+[123.151401] (-) TimerEvent: {}
+[123.251825] (-) TimerEvent: {}
+[123.352314] (-) TimerEvent: {}
+[123.427368] (ros2_conveyorbelt) CommandEnded: {'returncode': 0}
+[123.452562] (-) TimerEvent: {}
+[123.484408] (ros2_conveyorbelt) JobProgress: {'identifier': 'ros2_conveyorbelt', 'progress': 'install'}
+[123.485016] (ros2_conveyorbelt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt'], 'cwd': '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'srikar'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/'), ('HOME', '/home/srikar'), ('OLDPWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1820'), ('SYSTEMD_EXEC_PID', '2129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/srikar/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87777'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srikar'), ('JOURNAL_STREAM', '8:14864'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'srikar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/srikar/miniconda3/bin:/home/srikar/.local/bin:/home/srikar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin/geckodriver'), ('SESSION_MANAGER', 'local/srikar-Tesla-Vostro-3580:@/tmp/.ICE-unix/2099,unix/srikar-Tesla-Vostro-3580:/tmp/.ICE-unix/2099'), ('INVOCATION_ID', '882071b6c38143aabc98060a756cc347'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78fa7cda-c47e-4b44-bd7e-bbb25c7f357c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ros2_conveyorbelt'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/srikar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/conveyorbelt_msgs:/opt/ros/humble')]), 'shell': False}
+[123.497968] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[123.498647] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/library_path.sh\n'}
+[123.499825] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/library_path.dsv\n'}
+[123.553745] (-) TimerEvent: {}
+[123.654683] (-) TimerEvent: {}
+[123.755511] (-) TimerEvent: {}
+[123.856011] (-) TimerEvent: {}
+[123.956387] (-) TimerEvent: {}
+[124.056785] (-) TimerEvent: {}
+[124.157195] (-) TimerEvent: {}
+[124.257675] (-) TimerEvent: {}
+[124.358771] (-) TimerEvent: {}
+[124.459341] (-) TimerEvent: {}
+[124.559913] (-) TimerEvent: {}
+[124.641767] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/lib/libros2_conveyorbelt_plugin.so\n'}
+[124.653085] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Set runtime path of "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/lib/libros2_conveyorbelt_plugin.so" to ""\n'}
+[124.653474] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/python\n'}
+[124.653911] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/python/SpawnObject.py\n'}
+[124.654167] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/lib/ros2_conveyorbelt/SpawnObject.py\n'}
+[124.654388] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ament_index/resource_index/package_run_dependencies/ros2_conveyorbelt\n'}
+[124.654638] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ament_index/resource_index/parent_prefix_path/ros2_conveyorbelt\n'}
+[124.654882] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/ament_prefix_path.sh\n'}
+[124.655297] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/ament_prefix_path.dsv\n'}
+[124.655798] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/path.sh\n'}
+[124.656071] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/path.dsv\n'}
+[124.656332] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.bash\n'}
+[124.656550] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.sh\n'}
+[124.658251] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.zsh\n'}
+[124.658681] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.dsv\n'}
+[124.658897] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Installing: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.dsv\n'}
+[124.659123] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ament_index/resource_index/packages/ros2_conveyorbelt\n'}
+[124.659355] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[124.659576] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ros2_conveyorbeltConfig.cmake\n'}
+[124.659814] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ros2_conveyorbeltConfig-version.cmake\n'}
+[124.660016] (-) TimerEvent: {}
+[124.660279] (ros2_conveyorbelt) StdoutLine: {'line': b'-- Up-to-date: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.xml\n'}
+[124.760148] (-) TimerEvent: {}
+[124.860580] (-) TimerEvent: {}
+[124.961098] (-) TimerEvent: {}
+[125.061661] (-) TimerEvent: {}
+[125.162195] (-) TimerEvent: {}
+[125.263062] (-) TimerEvent: {}
+[125.363573] (-) TimerEvent: {}
+[125.464322] (-) TimerEvent: {}
+[125.565033] (-) TimerEvent: {}
+[125.566966] (ros2_conveyorbelt) CommandEnded: {'returncode': 0}
+[125.665181] (-) TimerEvent: {}
+[125.765748] (-) TimerEvent: {}
+[125.866295] (-) TimerEvent: {}
+[125.966813] (-) TimerEvent: {}
+[126.067301] (-) TimerEvent: {}
+[126.167943] (-) TimerEvent: {}
+[126.268840] (-) TimerEvent: {}
+[126.369718] (-) TimerEvent: {}
+[126.470166] (-) TimerEvent: {}
+[126.570571] (-) TimerEvent: {}
+[126.671015] (-) TimerEvent: {}
+[126.771745] (-) TimerEvent: {}
+[126.872250] (-) TimerEvent: {}
+[126.972812] (-) TimerEvent: {}
+[127.073267] (-) TimerEvent: {}
+[127.173874] (-) TimerEvent: {}
+[127.274383] (-) TimerEvent: {}
+[127.374831] (-) TimerEvent: {}
+[127.475297] (-) TimerEvent: {}
+[127.575862] (-) TimerEvent: {}
+[127.676591] (-) TimerEvent: {}
+[127.777064] (-) TimerEvent: {}
+[127.877531] (-) TimerEvent: {}
+[127.978811] (-) TimerEvent: {}
+[128.082879] (-) TimerEvent: {}
+[128.183903] (-) TimerEvent: {}
+[128.285384] (-) TimerEvent: {}
+[128.386259] (-) TimerEvent: {}
+[128.487390] (-) TimerEvent: {}
+[128.588276] (-) TimerEvent: {}
+[128.689663] (-) TimerEvent: {}
+[128.790340] (-) TimerEvent: {}
+[128.890945] (-) TimerEvent: {}
+[128.991938] (-) TimerEvent: {}
+[129.092326] (-) TimerEvent: {}
+[129.192866] (-) TimerEvent: {}
+[129.293513] (-) TimerEvent: {}
+[129.393986] (-) TimerEvent: {}
+[129.494684] (-) TimerEvent: {}
+[129.595480] (-) TimerEvent: {}
+[129.696058] (-) TimerEvent: {}
+[129.796855] (-) TimerEvent: {}
+[129.897652] (-) TimerEvent: {}
+[129.997410] (ros2_conveyorbelt) JobEnded: {'identifier': 'ros2_conveyorbelt', 'rc': 0}
+[131.079250] (-) TimerEvent: {}
+[131.079571] (-) EventReactorShutdown: {}

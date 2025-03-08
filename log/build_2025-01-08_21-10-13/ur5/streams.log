@@ -1,0 +1,114 @@
+[0.053s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Mini_Project/build/ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Mini_Project/build/ur5 -- -j8 -l8
+[0.058s] [0mCMake Error: The current CMakeCache.txt directory /mnt/Storage/Documents/MIT/Books/Mini_Project/build/ur5/CMakeCache.txt is different than the directory /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.077s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.215s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.215s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.255s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.258s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.265s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.348s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.349s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.382s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.387s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.423s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.611s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.642s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.660s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.669s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.670s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.674s] -- Searching for dependencies of ignition-math6
+[0.676s] -- Looking for OGRE...
+[0.681s] -- Found Ogre Ghadamon (1.9.0)
+[0.681s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.690s] -- Looking for OGRE_Paging...
+[0.691s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.691s] -- Looking for OGRE_Terrain...
+[0.691s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.691s] -- Looking for OGRE_Property...
+[0.691s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.691s] -- Looking for OGRE_RTShaderSystem...
+[0.691s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.691s] -- Looking for OGRE_Volume...
+[0.691s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.691s] -- Looking for OGRE_Overlay...
+[0.691s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.023s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.024s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.024s] -- Searching for dependencies of ignition-transport8
+[1.046s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.058s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.063s] -- Checking for module 'libzmq >= 4'
+[1.080s] --   Found libzmq , version 4.3.4
+[1.131s] -- Checking for module 'uuid'
+[1.154s] --   Found uuid, version 2.37.2
+[1.193s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.194s] -- Searching for dependencies of ignition-msgs5
+[1.222s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.231s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.233s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.234s] -- Searching for dependencies of ignition-common3
+[1.235s] -- Looking for dlfcn.h - found
+[1.235s] -- Looking for libdl - found
+[1.254s] -- Searching for <ignition-common3> component [graphics]
+[1.255s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.256s] -- Searching for dependencies of ignition-common3-graphics
+[1.256s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.258s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.258s] -- Searching for dependencies of ignition-fuel_tools4
+[1.329s] -- Checking for module 'jsoncpp'
+[1.359s] --   Found jsoncpp, version 1.9.5
+[1.429s] -- Checking for module 'libzip'
+[1.461s] --   Found libzip, version 1.7.3
+[1.503s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.504s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.504s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.506s] -- Gazebo version: 11.10
+[1.509s] -- Found rviz2: 11.2.14 (/opt/ros/humble/share/rviz2/cmake)
+[1.509s] -- Found controller_manager: 2.46.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.630s] -- Found moveit_core: 2.5.6 (/opt/ros/humble/share/moveit_core/cmake)
+[1.638s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.669s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.685s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.722s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.889s] -- Found moveit_visual_tools: 4.1.1 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[1.922s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.979s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.984s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.985s] -- Found OGRE
+[1.986s] --   static     : OFF
+[1.986s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.986s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.986s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.987s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.987s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.987s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.987s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.987s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.987s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.987s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.988s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.212s] -- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.218s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.243s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.282s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.460s] -- Configuring done
+[2.508s] -- Generating done
+[2.524s] -- Build files have been written to: /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5
+[2.582s] gmake[2]: *** No rule to make target '/home/srikar/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so', needed by 'motion_plan'.  Stop.
+[2.582s] gmake[2]: *** Waiting for unfinished jobs....
+[2.586s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o[0m
+[3.175s] In file included from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:41[m[K,
+[3.175s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[3.175s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[3.175s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[3.175s]                  from [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:3[m[K:
+[3.175s] [01m[K/opt/ros/humble/include/moveit/robot_model/link_model.h:46:10:[m[K [01;31m[Kfatal error: [m[Kgeometric_shapes/check_isometry.h: No such file or directory
+[3.176s]    46 | #include [01;31m[K<geometric_shapes/check_isometry.h>[m[K
+[3.176s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.176s] compilation terminated.
+[3.183s] gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76: CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o] Error 1
+[3.183s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_plan.dir/all] Error 2
+[3.183s] gmake: *** [Makefile:146: all] Error 2
+[3.545s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Mini_Project/build/ur5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Mini_Project/build/ur5 -- -j8 -l8

@@ -70,7 +70,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5/motion_plan")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5/motion_plan"
-         OLD_RPATH "/home/srikar/ws_moveit2/install/moveit_visual_tools/lib:/home/srikar/ws_moveit2/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/srikar/ws_moveit2/install/moveit_ros_move_group/lib:/home/srikar/ws_moveit2/install/moveit_ros_warehouse/lib:/home/srikar/ws_moveit2/install/moveit_ros_planning/lib:/home/srikar/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/srikar/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/home/srikar/ws_moveit2/install/srdfdom/lib:"
+         OLD_RPATH "/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5/motion_plan")
@@ -91,6 +91,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/ur5/spawn_box_scheduler.py"
     "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/ur5/pick_and_place.py"
     "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/ur5/moveit2_control.py"
+    "/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/ur5/gazebo_comm.py"
     )
 endif()
 

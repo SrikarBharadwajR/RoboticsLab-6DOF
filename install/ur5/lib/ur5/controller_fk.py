@@ -34,7 +34,7 @@ class TrajectoryPublisher(Node):
         point.time_from_start = Duration(sec=2)  # Correct Duration initialization
         msg.points.append(point)
         self.publisher_.publish(msg)
-        self.get_logger().info("Published trajectory point: %s" % str(point))
+        # self.get_logger().info("Published trajectory point: %s" % str(point))
 
 
 def main(args=None):

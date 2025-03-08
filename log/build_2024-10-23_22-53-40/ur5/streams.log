@@ -1,0 +1,10 @@
+[0.154s] Invoking command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
+[0.253s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o[0m
+[2.248s] [01m[K/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/src/ur5/src/motion_plan.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+[2.252s]     7 | #include [01;31m[K<opencv2/opencv.hpp>[m[K
+[2.252s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.253s] compilation terminated.
+[2.261s] gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76: CMakeFiles/motion_plan.dir/src/motion_plan.cpp.o] Error 1
+[2.266s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_plan.dir/all] Error 2
+[2.267s] gmake: *** [Makefile:146: all] Error 2
+[2.271s] Invoked command in '/mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srikar/ws_moveit2/install/moveit_configs_utils:/home/srikar/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /mnt/Storage/Documents/MIT/Books/Robotics-2_Lab/Mini_Project/build/ur5 -- -j8 -l8
